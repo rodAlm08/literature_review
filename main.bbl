@@ -1,0 +1,103 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{analytical-review}{article}{}
+      \name{author}{5}{}{%
+        {{hash=481fdf6199c02467f175e960cc3dd168}{%
+           family={Angelov},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d5db71b63aa075d49d0ff1bbbddef75a}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=39d79dd542cee50d8cfc9d9d529b55ee}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0927b33603f46af2e1f893f5af3f045e}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi I.},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=4e65254b99be3939a30da662acde01ea}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f137e59dbcad4ca01e279c12d396c674}
+      \strng{fullhash}{ffbd6b6aa34c394cec435745e0120133}
+      \strng{bibnamehash}{f137e59dbcad4ca01e279c12d396c674}
+      \strng{authorbibnamehash}{f137e59dbcad4ca01e279c12d396c674}
+      \strng{authornamehash}{f137e59dbcad4ca01e279c12d396c674}
+      \strng{authorfullhash}{ffbd6b6aa34c394cec435745e0120133}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{WIREs Data Mining and Knowledge Discovery}
+      \field{title}{Explainable artificial intelligence: an analytical review}
+      \field{volume}{11}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1002/widm.1424
+      \endverb
+    \endentry
+    \entry{doshivelez2017rigorous}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=b01a5e92cd39a5551d74ab2393c7b9fd}{%
+           family={Doshi-Velez},
+           familyi={D\bibinithyphendelim V\bibinitperiod},
+           given={Finale},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a11a6718c039f3e3f3f31167e5094c10}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Been},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{66c38242b4ecdd0e74f6a1fb48199a21}
+      \strng{fullhash}{66c38242b4ecdd0e74f6a1fb48199a21}
+      \strng{bibnamehash}{66c38242b4ecdd0e74f6a1fb48199a21}
+      \strng{authorbibnamehash}{66c38242b4ecdd0e74f6a1fb48199a21}
+      \strng{authornamehash}{66c38242b4ecdd0e74f6a1fb48199a21}
+      \strng{authorfullhash}{66c38242b4ecdd0e74f6a1fb48199a21}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{title}{Towards A Rigorous Science of Interpretable Machine Learning}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1702.08608
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
