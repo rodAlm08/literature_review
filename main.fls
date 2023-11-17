@@ -242,6 +242,7 @@ INPUT .\xaiGraphic.png
 INPUT .\xaiGraphic.png
 INPUT .\xaiGraphic.png
 INPUT .\xaiGraphic.png
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
@@ -264,6 +265,13 @@ INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplrc
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro7t.vf
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb7t.vf
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
@@ -285,6 +293,10 @@ INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplb8a.pfb
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplri8a.pfb

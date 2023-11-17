@@ -1,25 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[193] biber-MSWIN64:340> INFO - === 
-[312] Biber.pm:419> INFO - Reading 'main.bcf'
-[415] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
-[429] Biber.pm:4419> INFO - Processing section 0
-[463] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[537] bibtex.pm:1713> INFO - LaTeX decoding ...
-[561] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[675] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[676] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[676] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[676] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[685] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[690] bbl.pm:763> INFO - Output to main.bbl
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 10, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 16, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 27, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 38, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 47, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 83, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 89, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 96, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_IzbJ\33e59b5ca9ec342068223d604c3f8d55_4752.utf8, line 107, warning: 1 characters of junk seen at toplevel
-[691] Biber.pm:133> INFO - WARNINGS: 9
+[121] biber-MSWIN64:340> INFO - === 
+[170] Biber.pm:419> INFO - Reading 'main.bcf'
+[304] Biber.pm:979> INFO - Found 10 citekeys in bib section 0
+[318] Biber.pm:4419> INFO - Processing section 0
+[333] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[410] bibtex.pm:1713> INFO - LaTeX decoding ...
+[439] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[629] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[629] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[629] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[630] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[702] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[714] bbl.pm:763> INFO - Output to main.bbl
+[714] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 10, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 16, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 27, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 38, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 47, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 83, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 89, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 96, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\rodri\AppData\Local\Temp\biber_tmp_yLei\33e59b5ca9ec342068223d604c3f8d55_13976.utf8, line 107, warning: 1 characters of junk seen at toplevel
+[715] Biber.pm:133> INFO - WARNINGS: 9
