@@ -235,10 +235,13 @@ INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr7t.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr7t.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplrc7t.tfm
-INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT .\xaiGraphic.png
+INPUT .\xaiGraphic.png
+INPUT .\xaiGraphic.png
+INPUT .\xaiGraphic.png
+INPUT .\xaiGraphic.png
+INPUT .\xaiGraphic.png
+INPUT .\xaiGraphic.png
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
@@ -261,6 +264,10 @@ INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplrc
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri7t.vf
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
@@ -270,6 +277,8 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\rodri\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb

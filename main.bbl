@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{transparency}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8a9ff04737c73b2b3a33aa683bf3fbce}{%
+           family={Adadi},
+           familyi={A\bibinitperiod},
+           given={Amina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d9bcbdaf716d702fac9dc8cc5800ef30}{%
+           family={Berrada},
+           familyi={B\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{020b8c17b7a31bebb298656b5ca70bc3}
+      \strng{fullhash}{020b8c17b7a31bebb298656b5ca70bc3}
+      \strng{bibnamehash}{020b8c17b7a31bebb298656b5ca70bc3}
+      \strng{authorbibnamehash}{020b8c17b7a31bebb298656b5ca70bc3}
+      \strng{authornamehash}{020b8c17b7a31bebb298656b5ca70bc3}
+      \strng{authorfullhash}{020b8c17b7a31bebb298656b5ca70bc3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{pages}{52138\bibrangedash 52160}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2870052
+      \endverb
+    \endentry
     \entry{analytical-review}{article}{}
       \name{author}{5}{}{%
         {{hash=481fdf6199c02467f175e960cc3dd168}{%
@@ -66,6 +99,65 @@
       \verb 10.1002/widm.1424
       \endverb
     \endentry
+    \entry{xai-ml}{article}{}
+      \name{author}{7}{}{%
+        {{hash=b0a6e3616287426cd7458c3488f40f04}{%
+           family={Antoniadi},
+           familyi={A\bibinitperiod},
+           given={Anna\bibnamedelima Markella},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b73f4f58207908113ccb93945d9bc805}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Yuhan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a65f01c13fa83b7763e79d9ba72dedd4}{%
+           family={Guendouz},
+           familyi={G\bibinitperiod},
+           given={Yasmine},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5ef9bbe02a75ebef9aebee36bb90fac3}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Lan},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e309e3b8bfc872e465ab6feb0b4eba1b}{%
+           family={Mazo},
+           familyi={M\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=459470e9e5bd5b2e80b36fa84b380c9d}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Brett\bibnamedelima A},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=36274942f8efb4d4bad5e5c3b7f64714}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{e89635fed02f047fb650ad94827a85b9}
+      \strng{fullhash}{74c1561b0ff9dd5f7506c9d47e44cc58}
+      \strng{bibnamehash}{e89635fed02f047fb650ad94827a85b9}
+      \strng{authorbibnamehash}{e89635fed02f047fb650ad94827a85b9}
+      \strng{authornamehash}{e89635fed02f047fb650ad94827a85b9}
+      \strng{authorfullhash}{74c1561b0ff9dd5f7506c9d47e44cc58}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{11}
+      \field{title}{Current challenges and future opportunities for XAI in machine learning-based clinical decision support systems: a systematic review}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{pages}{5088}
+      \range{pages}{1}
+    \endentry
     \entry{doshivelez2017rigorous}{misc}{}
       \name{author}{2}{}{%
         {{hash=b01a5e92cd39a5551d74ab2393c7b9fd}{%
@@ -96,6 +188,105 @@
       \verb{eprint}
       \verb 1702.08608
       \endverb
+    \endentry
+    \entry{gilpin2019explaining}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=5ee638794fa56f3270e2f92ce36abd3d}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Leilani\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=22ad692c20b3b8f8f6a32384dae0ac10}{%
+           family={Bau},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2418a50be1cd9c3d90ba435a3f66316d}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Ben\bibnamedelima Z.},
+           giveni={B\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=b028169597680b6c6f5c881aa716183a}{%
+           family={Bajwa},
+           familyi={B\bibinitperiod},
+           given={Ayesha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=81b61170bb2b94f3efe062f4964e7a12}{%
+           family={Specter},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6cab81d607599e0adc135714724fa896}{%
+           family={Kagal},
+           familyi={K\bibinitperiod},
+           given={Lalana},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5d7ba8feb0b410b3732c3a8cca417d9}
+      \strng{fullhash}{ce7b8f9315fcd6c72561b44b394d27b6}
+      \strng{bibnamehash}{c5d7ba8feb0b410b3732c3a8cca417d9}
+      \strng{authorbibnamehash}{c5d7ba8feb0b410b3732c3a8cca417d9}
+      \strng{authornamehash}{c5d7ba8feb0b410b3732c3a8cca417d9}
+      \strng{authorfullhash}{ce7b8f9315fcd6c72561b44b394d27b6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.AI}
+      \field{eprinttype}{arXiv}
+      \field{title}{Explaining Explanations: An Overview of Interpretability of Machine Learning}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1806.00069
+      \endverb
+    \endentry
+    \entry{xai-concept}{misc}{}
+      \field{sortinit}{h}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{note}{AI concept vs. XAI Concept}
+    \endentry
+    \entry{phillips2020four}{article}{}
+      \name{author}{5}{}{%
+        {{hash=919d677f582b731ebd2e1a83d1f4c206}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={P\bibnamedelima Jonathon},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1b153404169b4f0e66e98efd570c6c75}{%
+           family={Hahn},
+           familyi={H\bibinitperiod},
+           given={Carina\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ebcb0d7822e9968b17379c3720a4922}{%
+           family={Fontana},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima C},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6bcdd431ea1897382338b99754d94c75}{%
+           family={Broniatowski},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9fc84debfc09fa8f1f66c08299712362}{%
+           family={Przybocki},
+           familyi={P\bibinitperiod},
+           given={Mark\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d6a296d533dfd318e4b16a93bd26eed}
+      \strng{fullhash}{a7e5258f61d058a81a0e249296a4186e}
+      \strng{bibnamehash}{8d6a296d533dfd318e4b16a93bd26eed}
+      \strng{authorbibnamehash}{8d6a296d533dfd318e4b16a93bd26eed}
+      \strng{authornamehash}{8d6a296d533dfd318e4b16a93bd26eed}
+      \strng{authorfullhash}{a7e5258f61d058a81a0e249296a4186e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gaithersburg, Maryland}
+      \field{title}{Four principles of explainable artificial intelligence}
+      \field{volume}{18}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection

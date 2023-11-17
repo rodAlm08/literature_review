@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1700166070 "main.bcf" "main.bbl" "main" 1700166080 0
+["biber main"] 1700218170 "main.bcf" "main.bbl" "main" 1700218182 0
   "./references.bib" 1700165571 5149 a113537fdd3f50a78f1d41e0f4e62747 ""
-  "main.bcf" 1700166079 107922 ed4d36bc17fbb7da696e92e74a30c8d5 "pdflatex"
+  "main.bcf" 1700218181 108337 c1edfdec0d85deda314da5861963d53b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1700166078 "c:/Users/rodri/repos/LiteratureReview/main.tex" "main.pdf" "main" 1700166080 0
+["pdflatex"] 1700218180 "c:/Users/rodri/repos/LiteratureReview/main.tex" "main.pdf" "main" 1700218182 0
   "C:/Users/rodri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700166069 83684 3b84680198267a4e8dad11f341ea2340 ""
   "C:/Users/rodri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699897515 24141909 791afb999a7d7fed43d91ddbedc6c6ff ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -34,6 +34,7 @@
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb" 1136846148 45758 19968a0990191524e34e1994d4a31cb6 ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb" 1136853348 35941 adef23a721dd8354a4a2bf4434f1c484 ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136853348 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
@@ -115,12 +116,13 @@
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1686255640 12691 ddae4e0162a664f166015d992388b742 ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1686255640 7147 d80d8cf72d313443d08c13c1af59c90f ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/rodri/repos/LiteratureReview/main.tex" 1700166053 4194 b2f5de6d8ac32122fd37e0835456365b ""
-  "main.aux" 1700166079 1693 36d80c46175bdb08e50b26594d6b5c30 "pdflatex"
-  "main.bbl" 1700166075 3793 ce3b252abca50b0f4a2b84cffd8a8fb3 "biber main"
-  "main.out" 1700166079 694 2c53fdaa89cec038b95caac916f74cc8 "pdflatex"
-  "main.run.xml" 1700166079 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
-  "main.tex" 1700166053 4194 b2f5de6d8ac32122fd37e0835456365b ""
+  "c:/Users/rodri/repos/LiteratureReview/main.tex" 1700218172 6420 59f53810bcaa3afb3d8aa95be74df54a ""
+  "main.aux" 1700218181 2972 c454f8fb1117a3e9bde1235561a241e9 "pdflatex"
+  "main.bbl" 1700218177 11826 e44595390caeb116e1d5f4a10a4be4d6 "biber main"
+  "main.out" 1700218181 1032 99cba6fde00cabf9a859060ed271a7e5 "pdflatex"
+  "main.run.xml" 1700218181 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
+  "main.tex" 1700218172 6420 59f53810bcaa3afb3d8aa95be74df54a ""
+  "xaiGraphic.png" 1700166152 48367 2bd599029668c76b631a0b2c90845ecc ""
   (generated)
   "main.aux"
   "main.bcf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  16 NOV 2023 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  17 NOV 2023 10:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,18 +634,30 @@ LaTeX Font Info:    Trying to load font information for U+pzd on input line 57.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 79.
+<xaiGraphic.png, id=36, 643.40375pt x 283.0575pt>
+File: xaiGraphic.png Graphic file (type png)
+<use xaiGraphic.png>
+Package pdftex.def Info: xaiGraphic.png  used on input line 68.
+(pdftex.def)             Requested size: 238.05565pt x 104.72963pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.53561> on input line 79.
+(Font)              <9.53561> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.6749> on input line 79.
+(Font)              <6.6749> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.7678> on input line 79.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 79.
+(Font)              <4.7678> on input line 78.
+[1{C:/Users/rodri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+ <./xaiGraphic.png>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 100.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{C:/Users/rodri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
+) [2
 
 ] (main.aux)
  ***********
@@ -653,23 +665,23 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2C53FDAA89CEC038B95CAAC916F74CC8;694.
+(rerunfilecheck)             Checksum: 99CBA6FDE00CABF9A859060ED271A7E5;1032.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19474 strings out of 475248
- 346316 string characters out of 5757812
- 1933785 words of memory out of 5000000
- 40798 multiletter control sequences out of 15000+600000
+ 19520 strings out of 475248
+ 347577 string characters out of 5757812
+ 1940785 words of memory out of 5000000
+ 40835 multiletter control sequences out of 15000+600000
  595642 words of font info for 112 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,6n,81p,1167b,1331s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (1 page, 77677 bytes).
+ 75i,7n,81p,1167b,1435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (2 pages, 113160 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
