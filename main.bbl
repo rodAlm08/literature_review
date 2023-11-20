@@ -158,6 +158,34 @@
       \field{pages}{5088}
       \range{pages}{1}
     \endentry
+    \entry{misc_adult_2}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=da2a81bc7f918951ece232dba1488772}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=df01f98ab2772a317618e23a0f31decc}{%
+           family={Kohavi},
+           familyi={K\bibinitperiod},
+           given={Ronny},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c0a203536406763197af207c2321389}
+      \strng{fullhash}{0c0a203536406763197af207c2321389}
+      \strng{bibnamehash}{0c0a203536406763197af207c2321389}
+      \strng{authorbibnamehash}{0c0a203536406763197af207c2321389}
+      \strng{authornamehash}{0c0a203536406763197af207c2321389}
+      \strng{authorfullhash}{0c0a203536406763197af207c2321389}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{UCI Machine Learning Repository}
+      \field{note}{{DOI}: https://doi.org/10.24432/C5XW20}
+      \field{title}{{Adult}}
+      \field{year}{1996}
+    \endentry
     \entry{doshivelez2017rigorous}{misc}{}
       \name{author}{2}{}{%
         {{hash=b01a5e92cd39a5551d74ab2393c7b9fd}{%

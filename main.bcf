@@ -2377,6 +2377,9 @@
     <bcf:citekey order="14" intorder="1">phillips2020four</bcf:citekey>
     <bcf:citekey order="15" intorder="1">why-trust-you</bcf:citekey>
     <bcf:citekey order="16" intorder="1">phillips2020four</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">misc_adult_2</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">phillips2020four</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">misc_adult_2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
