@@ -32,6 +32,8 @@
 \abx@aux@segm{0}{0}{gilpin2019explaining}
 \abx@aux@cite{0}{phillips2020four}
 \abx@aux@segm{0}{0}{phillips2020four}
+\abx@aux@cite{0}{phillips2020four}
+\abx@aux@segm{0}{0}{phillips2020four}
 \abx@aux@cite{0}{rudin}
 \abx@aux@segm{0}{0}{rudin}
 \abx@aux@cite{0}{radin}
@@ -53,6 +55,8 @@
 \abx@aux@segm{0}{0}{why-trust-you}
 \abx@aux@cite{0}{phillips2020four}
 \abx@aux@segm{0}{0}{phillips2020four}
+\abx@aux@cite{0}{misc_adult_2}
+\abx@aux@segm{0}{0}{misc_adult_2}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Self-interpratable Models}{2}{subsection.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Pos-hoc Explanations}{2}{subsection.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Local Explanation}{2}{subsection.3.3}\protected@file@percent }
@@ -64,22 +68,46 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.3}TCAV - Testing with Concept Activation Vectors}{2}{subsubsection.3.4.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.4}CAVs - Concept Activation Vectors}{2}{subsubsection.3.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.5}Decision sets}{2}{subsubsection.3.4.5}\protected@file@percent }
-\abx@aux@cite{0}{misc_adult_2}
-\abx@aux@segm{0}{0}{misc_adult_2}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6}LIME }{2}{subsubsection.3.4.6}\protected@file@percent }
 \abx@aux@cite{0}{phillips2020four}
 \abx@aux@segm{0}{0}{phillips2020four}
 \abx@aux@cite{0}{misc_adult_2}
 \abx@aux@segm{0}{0}{misc_adult_2}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6}LIME }{3}{subsubsection.3.4.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}Interpreting Predictions - A Case Study with the "Adult Income" dataset}{3}{section.4}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison of Local and Global Explanations in XAI}}{3}{table.caption.2}\protected@file@percent }
 \newlabel{tab:xai_comparison}{{1}{3}{Comparison of Local and Global Explanations in XAI}{table.caption.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Interpreting Predictions - A Case Study with the "Adult Income" dataset}{3}{section.5}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Variable Descriptions}}{3}{table.caption.3}\protected@file@percent }
 \newlabel{tab:variable-descriptions}{{2}{3}{Variable Descriptions}{table.caption.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Future Work}{4}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{4}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  A}{4}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Using Python to interpret predictions}{4}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Importing the libraries}{4}{subsubsection.5.1.1}\protected@file@percent }
+\newlabel{python_code}{{1}{4}{Import libraries}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces Import libraries}}{4}{lstlisting.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Loading the dataset}{4}{subsubsection.5.1.2}\protected@file@percent }
+\newlabel{python_code}{{2}{4}{Load dataset}{lstlisting.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}{\ignorespaces Load dataset}}{4}{lstlisting.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}Data Preprocessing}{4}{subsubsection.5.1.3}\protected@file@percent }
+\newlabel{python_code}{{3}{4}{Data Preprocessing}{lstlisting.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}{\ignorespaces Data Preprocessing}}{4}{lstlisting.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4}Splitting the dataset into training and test sets}{4}{subsubsection.5.1.4}\protected@file@percent }
+\newlabel{python_code}{{4}{4}{Splitting the dataset into training and test sets}{lstlisting.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}{\ignorespaces Splitting the dataset into training and test sets}}{4}{lstlisting.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.5}Training a Decision Tree Classifier}{4}{subsubsection.5.1.5}\protected@file@percent }
+\newlabel{python_code}{{5}{4}{Training a Decision Tree Classifier}{lstlisting.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}{\ignorespaces Training a Decision Tree Classifier}}{4}{lstlisting.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.6}Simplify feature names for visualization}{4}{subsubsection.5.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.7}Visualize the Decision Tree}{4}{subsubsection.5.1.7}\protected@file@percent }
+\newlabel{python_code}{{6}{4}{Visualize the Decision Tree}{lstlisting.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}{\ignorespaces Visualize the Decision Tree}}{4}{lstlisting.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Decision Tree Feature Importances}}{4}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:decision_tree_feature_importances}{{2}{4}{Decision Tree Feature Importances}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.8}Apply SHAP for Global Explanations}{4}{subsubsection.5.1.8}\protected@file@percent }
+\newlabel{python_code}{{7}{4}{Apply Post-Hoc Explanations}{lstlisting.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {7}{\ignorespaces Apply Post-Hoc Explanations}}{4}{lstlisting.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces SHAP Summary Plot}}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:shap_summary_plot}{{3}{5}{SHAP Summary Plot}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Future Work}{5}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{5}{section.7}\protected@file@percent }
 \abx@aux@read@bbl@mdfivesum{21BF16EC33484338E0342DFF135D6F0A}
 \abx@aux@defaultrefcontext{0}{transparency}{nty/global//global/global}
 \abx@aux@defaultrefcontext{0}{analytical-review}{nty/global//global/global}
@@ -92,4 +120,4 @@
 \abx@aux@defaultrefcontext{0}{xai-concept}{nty/global//global/global}
 \abx@aux@defaultrefcontext{0}{phillips2020four}{nty/global//global/global}
 \abx@aux@defaultrefcontext{0}{why-trust-you}{nty/global//global/global}
-\gdef \@abspage@last{4}
+\gdef \@abspage@last{5}

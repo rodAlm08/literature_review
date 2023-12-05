@@ -12,7 +12,6 @@
 
 \hyphenation{op-tical net-works semi-conduc-tor}
 
-
 \usepackage{hyperref}
 \usepackage{biblatex}
 \usepackage{graphicx}
@@ -21,6 +20,18 @@
 \usepackage{tabularx}
 \usepackage{caption}
 \usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{float}
+\lstset{
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!30!black},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+}
 
 \graphicspath{{images/}}
 
@@ -84,8 +95,8 @@ Explainable AI (XAI) is a field focused on increasing human understanding of AI 
 Researchers have developed many algorithms to explain AI systems. These explanations could be categorized into two primary groups: self-interpretable models refer to the algorithm model itself or a representation of the algorithm that can be directly read and comprehended by a human. In this case, the model itself serves as the explanation. On the other hand, post-hoc explanations are descriptions, explanations, or models of the algorithm often produced by separate software tools. These tools aim to provide an understanding of how the algorithm operates. Post-hoc explanations are particularly useful for algorithms for which the inner workings are not fully transparent, as they can be employed to generate insights without requiring deep knowledge of the algorithm's internal mechanisms. Instead, they rely on querying the algorithm for outputs based on selected inputs.\cite{phillips2020four}.
 
 \subsection{Self-interpratable Models}
-Self-interpretable models are models that are themselves the explanations. They not only explain the whole model but go through each input throughout the model, simulating the input on the self-interpretable model can provide a local explanation for each decision.
-Common self-interpretable models include decision trees and regression models, such as logistic regression. Ongoing research aims to create more interpretable models that surpass the accuracy of basic decision trees and regression models. These newer models include decision lists, decision sets, prototypes (representative samples of each class), feature combination rules, Bayesian Rule Lists, additive decision trees, and improved versions of decision trees.
+Models that are self interpratable are those that serve as the explanation themselves. They not only describe the entire model but also it goes through each input, replicating the input on the self-interpretable model can providing a justification for each decision.
+Common self-interpretable models are decision trees and regression models. Ongoing research aims to create more interpretable models that surpass the accuracy of basic decision trees and regression models. These newer models include decision lists, decision sets, prototypes (representative samples of each class), feature combination rules, Bayesian Rule Lists, additive decision trees, and improved versions of decision trees.\cite{phillips2020four}
 Some sources suggest there is a trade-off between accuracy and interpretability with self-interpretable models being less accurate than post-hoc models. The challenge, in this case, is really to balance the precision of the model with what it means to humans. However, scholars like Rudin\cite{rudin} and Radin\cite{radin} in their research called "Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition", disagree, explaining that there is not necessarily a trade-off between accuracy and interpretability. In many cases, interpretable models can be utilized without sacrificing decision accuracy.\cite{phillips2020four}
 
 \subsection{Pos-hoc Explanations}
@@ -124,7 +135,7 @@ Opposite to black-box models, the decision sets capture the decision-making proc
 The Local Interpretable model-agnostic explanations aim to approximate any black-box machine learning model with a local and interpretable model explaining each individual prediction.
 
 \section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
-As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers. 
+As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers.
 Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
 
 \begin{table}[h]
@@ -150,7 +161,7 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 \end{table}
 
 \section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
-As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers. 
+As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers.
 Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
 
 \begin{table}[h]
@@ -160,21 +171,21 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
         \toprule
         \textbf{Variable Name} & \textbf{Role} & \textbf{Type} & \textbf{Demographic} \\
         \midrule
-        age & Feature & Integer & Age \\
-        workclass & Feature & Categorical & Income \\
-        fnlwgt & Feature & Integer & --- \\
-        education & Feature & Categorical & Education Level \\
-        education-num & Feature & Integer & Education Level \\
-        marital-status & Feature & Categorical & Other \\
-        occupation & Feature & Categorical & Other \\
-        relationship & Feature & Categorical & Other \\
-        race & Feature & Categorical & Race \\
-        sex & Feature & Binary & Sex \\
-        capital-gain & Feature & Integer & --- \\
-        capital-loss & Feature & Integer & --- \\
-        hours-per-week & Feature & Integer & --- \\
-        native-country & Feature & Categorical & Other \\
-        income & Target & Binary & Income \\
+        age                    & Feature       & Integer       & Age                  \\
+        workclass              & Feature       & Categorical   & Income               \\
+        fnlwgt                 & Feature       & Integer       & ---                  \\
+        education              & Feature       & Categorical   & Education Level      \\
+        education-num          & Feature       & Integer       & Education Level      \\
+        marital-status         & Feature       & Categorical   & Other                \\
+        occupation             & Feature       & Categorical   & Other                \\
+        relationship           & Feature       & Categorical   & Other                \\
+        race                   & Feature       & Categorical   & Race                 \\
+        sex                    & Feature       & Binary        & Sex                  \\
+        capital-gain           & Feature       & Integer       & ---                  \\
+        capital-loss           & Feature       & Integer       & ---                  \\
+        hours-per-week         & Feature       & Integer       & ---                  \\
+        native-country         & Feature       & Categorical   & Other                \\
+        income                 & Target        & Binary        & Income               \\
         \bottomrule
     \end{tabularx}
     \label{tab:variable-descriptions}
@@ -194,26 +205,131 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
     \item \textbf{Marital Status:} This describes the marital status of the individual. It is divided into Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, and Married-AF-spouse.
 
     \item \textbf{Occupation:} Specifies the type of education the individual is involved with. It is divided into Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces. Occupation is also a key factor which influences income, as the income levels are different depending on the occupation.
-    
+
     \item \textbf{Relationship:} This describes the relationship status of an individual which can have an impact on household income and financial stability. It is divided into Wife, Own-child, Husband, Not-in-family, Other-relative, and Unmarried.
- 
+
     \item \textbf{Race:} Indicates the race of the individual. It shouldn't directly affect income but could be linked to other socioeconomic factors that can impact earnings. It is divided into White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, and Black.
 
     \item \textbf{Sex:} Specifies the gender of the individual. It can influence income for reasons such as wage gaps and job segregation. It is divided into Female and Male.
 
     \item \textbf{Capital Gain:} Represents capital gains for the individual. It contributes to overall income.
-    
+
     \item \textbf{Capital Loss:} Represents capital losses for the individual. It can impact the individual's financial situation.
-    
+
     \item \textbf{Hours Per Week:} Indicates the number of working hours per week. The number of hours worked in a week influences the income directly.
 
     \item \textbf{Native Country:} Indicates the individual's country of origin. Depending on the country of origin the individual may be impacted by less or more opportunities. It is divided into: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad \& Tobago, Peru, Hong, Holand-Netherlands.
-    
+
     \item \textbf{Income:} This is the target variable indicating whether the individual's income exceeds  \$50,000 per year. This is the variable we are trying to predict.
-    
+
 \end{itemize}
 
+\subsection{Using Python to interpret predictions}
+In this section, I will use Python to interpret predictions made by a machine learning model, using the "Adult Income" described above.
 
+\subsubsection{Importing the libraries}
+
+\begin{lstlisting}[language=Python, caption={Import libraries}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Import necessary libraries
+    import pandas as pd
+    from sklearn.model_selection import train_test_split
+    from sklearn.tree import DecisionTreeClassifier, plot_tree
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.metrics import accuracy_score
+    import shap
+    from lime import lime_tabular
+    import matplotlib.pyplot as plt
+\end{lstlisting}
+
+\subsubsection{Loading the dataset}
+\begin{lstlisting}[language=Python, caption={Load dataset}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Load the Adult Income dataset (replace 'path_to_data' with your actual path)
+    data_url = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
+    columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation',
+               'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country', 'income']
+    data = pd.read_csv(data_url, header=None, names=columns, na_values=' ?', skipinitialspace=True)
+    data.describe()
+    data
+  
+    
+\end{lstlisting}
+
+\subsubsection{Data Preprocessing}
+
+\begin{lstlisting}[language=Python, caption={Data Preprocessing}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Preprocess the data
+    data = data.dropna()
+    data_encoded = pd.get_dummies(data, columns=['workclass', 'education', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'native-country'])
+    X = data_encoded.drop('income', axis=1)
+    y = data_encoded['income']
+\end{lstlisting}
+
+\subsubsection{Splitting the dataset into training and test sets}
+\begin{lstlisting}[language=Python, caption={Splitting the dataset into training and test sets}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Split the data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+  
+\end{lstlisting}
+
+\subsubsection{Training a Decision Tree Classifier}
+
+\begin{lstlisting}[language=Python, caption={Training a Decision Tree Classifier}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Train a decision tree model
+    decision_tree_model = DecisionTreeClassifier(random_state=42)
+    decision_tree_model.fit(X_train, y_train)
+    
+    # Evaluate the Decision Tree model
+    y_pred_dt = decision_tree_model.predict(X_test)
+    accuracy_dt = accuracy_score(y_test, y_pred_dt)
+    print(f"Decision Tree Accuracy: {accuracy_dt}")
+    
+\end{lstlisting}
+
+\subsubsection{Simplify feature names for visualization}
+\begin{lstlisting}[language=Python, captionpos=b,  basicstyle=\scriptsize]
+    # Simplify feature names for visualization
+    feature_names_simplified = [col.split('_')[0] if '_' in col else col for col in X.columns]
+\end{lstlisting}
+
+\textbf{Decision Tree Accuracy: 0.82081989866421}
+
+
+\subsubsection{Visualize the Decision Tree}
+\begin{lstlisting}[language=Python, caption={Visualize the Decision Tree}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Feature importances from the Decision Tree
+    feature_importances = decision_tree_model.feature_importances_
+    # Create a bar plot for feature importances
+    plt.figure(figsize=(12, 8))
+    plt.barh(feature_names_simplified, feature_importances)
+    plt.xlabel('Feature Importance')
+    plt.title('Decision Tree Feature Importances')
+    plt.show()    
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/decision_tree_feature_importances.png}
+    \caption{Decision Tree Feature Importances}
+    \label{fig:decision_tree_feature_importances}
+\end{figure}
+
+\subsubsection{Apply SHAP for Global Explanations}
+
+\begin{lstlisting}[language=Python, caption={Apply Post-Hoc Explanations}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
+    # Apply SHAP for global explanations
+    shap_values_dt = shap.TreeExplainer(decision_tree_model).shap_values(X)
+    
+    # Generate bar charts for SHAP values
+    shap.summary_plot(shap_values_dt[1], X, feature_names=feature_names_simplified, class_names=['<=50K', '>50K'], plot_type='bar')
+    
+\end{lstlisting}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/shap_summary_plot.png}
+    \caption{SHAP Summary Plot}
+    \label{fig:shap_summary_plot}
+    \end{figure}
 
 
 \section{Future Work}
@@ -221,12 +337,6 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 
 \section{Conclusion}
 
-
-\appendices
-
-
-
-\section{}
 
 
 % references section
