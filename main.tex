@@ -23,6 +23,7 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{float}
+
 \lstset{
     basicstyle=\ttfamily\footnotesize,
     keywordstyle=\color{blue},
@@ -30,7 +31,10 @@
     stringstyle=\color{red},
     showstringspaces=false,
     breaklines=true,
-    frame=single,
+    frame=none,
+    numbers=left, 
+    numberstyle=\tiny,
+    backgroundcolor = \color{lightgray!20!white},
 }
 
 \graphicspath{{images/}}
@@ -285,13 +289,14 @@ In this section, I will use Python to interpret predictions made by a machine le
     
 \end{lstlisting}
 
+\textbf{Decision Tree Accuracy: 0.82081989866421}
+
 \subsubsection{Simplify feature names for visualization}
 \begin{lstlisting}[language=Python, captionpos=b,  basicstyle=\scriptsize]
     # Simplify feature names for visualization
     feature_names_simplified = [col.split('_')[0] if '_' in col else col for col in X.columns]
 \end{lstlisting}
 
-\textbf{Decision Tree Accuracy: 0.82081989866421}
 
 
 \subsubsection{Visualize the Decision Tree}

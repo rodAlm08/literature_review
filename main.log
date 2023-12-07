@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  5 DEC 2023 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  7 DEC 2023 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -599,27 +599,27 @@ LaTeX Warning: Label `python_code' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 -- Lines per column: 61 (exact).
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 44.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -637,8 +637,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
+Package biblatex Info: Reference section=0 on input line 44.
+Package biblatex Info: Reference segment=0 on input line 44.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count424
@@ -662,193 +662,193 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 68.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 72.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 68.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.04124> on input line 68.
+(Font)              <11.04124> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.72884> on input line 68.
+(Font)              <7.72884> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.52061> on input line 68.
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 68.
+(Font)              <5.52061> on input line 72.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 72.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 <images/xaiGraphic.png, id=120, 643.40375pt x 283.0575pt>
 File: images/xaiGraphic.png Graphic file (type png)
 <use images/xaiGraphic.png>
-Package pdftex.def Info: images/xaiGraphic.png  used on input line 79.
+Package pdftex.def Info: images/xaiGraphic.png  used on input line 83.
 (pdftex.def)             Requested size: 238.05565pt x 104.72963pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 89.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.53561> on input line 89.
+(Font)              <9.53561> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.6749> on input line 89.
+(Font)              <6.6749> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.7678> on input line 89.
+(Font)              <4.7678> on input line 93.
 [1{C:/Users/rodri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
  <./images/xaiGraphic.png>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 108.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 \OT1/ppl/m/n/9.53561 Global ex-pla-na-tions pro-duce post-hoc ex-pla-na-tions
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 138.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 142.
 (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [2]
-Underfull \hbox (badness 7415) in paragraph at lines 158--158
+Underfull \hbox (badness 7415) in paragraph at lines 162--162
 []|\OT1/ppl/m/n/9.03374 It will fo-cus on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 un-der-stand-ing the
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 158--158
+Underfull \hbox (badness 6859) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 model's be-haviour
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 across the en-tire
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []|\OT1/ppl/m/n/9.03374 Aims to ex-plain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 why a par-tic-u-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []|\OT1/ppl/m/n/9.03374 Higher level
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 overview of the
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 158--158
+Underfull \hbox (badness 3179) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 model's be-haviour,
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 158--158
+Underfull \hbox (badness 1490) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 trends and fea-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 im-por-tance across
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []|\OT1/ppl/m/n/9.03374 PDPs, ICE, SP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 LIME, TCAV,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 de-ci-sion sets,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 sum-mary of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 coun-ter-fac-tual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 why a spe-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 pre-dic-tion was
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 158--158
+Underfull \hbox (badness 5064) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 like health-care or
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 158--158
+Underfull \hbox (badness 1939) in paragraph at lines 162--162
 []|\OT1/ppl/m/n/9.03374 Focus on iden-ti-fy-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 158--158
+Underfull \hbox (badness 6859) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 model's be-haviour
  []
 
 
-Overfull \hbox (12.50824pt too wide) in paragraph at lines 158--158
+Overfull \hbox (12.50824pt too wide) in paragraph at lines 162--162
 []|\OT1/ppl/b/n/9.03374 Interpretability| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []|\OT1/ppl/m/n/9.03374 Easier to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 un-der-stand for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 in-di-vid-ual cases,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 fo-cus-ing on the
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 158--158
+Underfull \hbox (badness 5893) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 model, mak-ing it
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 158--158
+Underfull \hbox (badness 5217) in paragraph at lines 162--162
 \OT1/ppl/m/n/9.03374 mak-ers seek-ing a
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 190--190
+Underfull \hbox (badness 10000) in alignment at lines 194--194
 [][][][][][]
  []
 
@@ -856,85 +856,85 @@ Underfull \hbox (badness 10000) in alignment at lines 190--190
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 205--206
+Underfull \hbox (badness 1803) in paragraph at lines 209--210
 []\OT1/ppl/b/n/9.53561 Marital Sta-tus: \OT1/ppl/m/n/9.53561 This de-scribes the mar-i-tal sta-
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 205--206
+Underfull \hbox (badness 2772) in paragraph at lines 209--210
 \OT1/ppl/m/n/9.53561 civ-spouse, Di-vorced, Never-married, Sep-a-rated,
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 207--208
+Underfull \hbox (badness 1509) in paragraph at lines 211--212
 \OT1/ppl/m/n/9.53561 in-di-vid-ual is in-volved with. It is di-vided into
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 207--208
+Underfull \hbox (badness 7064) in paragraph at lines 211--212
 \OT1/ppl/m/n/9.53561 Tech-support, Craft-repair, Other-service, Sales,
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 207--208
+Underfull \hbox (badness 1354) in paragraph at lines 211--212
 \OT1/ppl/m/n/9.53561 Machine-op-inspct, Adm-clerical, Farming-fishing,
  []
 
 [3]
-Underfull \hbox (badness 1796) in paragraph at lines 221--222
+Underfull \hbox (badness 1796) in paragraph at lines 225--226
 \OT1/ppl/m/n/9.53561 Scot-land, Thai-land, Yu-goslavia, El-Salvador, Tri-
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 223--224
+Underfull \hbox (badness 2772) in paragraph at lines 227--228
 []\OT1/ppl/b/n/9.53561 Income: \OT1/ppl/m/n/9.53561 This is the tar-get vari-able in-di-cat-ing
  []
 
 (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 232.
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 284.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 236.
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 288.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <7.02625> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 284.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
 <images/decision_tree_feature_importances.png, id=178, 771.1209pt x 505.1673pt>
 File: images/decision_tree_feature_importances.png Graphic file (type png)
 <use images/decision_tree_feature_importances.png>
-Package pdftex.def Info: images/decision_tree_feature_importances.png  used on input line 311.
+Package pdftex.def Info: images/decision_tree_feature_importances.png  used on input line 316.
 (pdftex.def)             Requested size: 252.94499pt x 165.70364pt.
-LaTeX Font Info:    Trying to load font information for OML+ppl on input line 323.
+LaTeX Font Info:    Trying to load font information for OML+ppl on input line 328.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlppl.fd
 File: omlppl.fd 
 )
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <7.02625> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 323.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 328.
 <images/shap_summary_plot.png, id=179, 570.933pt x 679.338pt>
 File: images/shap_summary_plot.png Graphic file (type png)
 <use images/shap_summary_plot.png>
-Package pdftex.def Info: images/shap_summary_plot.png  used on input line 329.
+Package pdftex.def Info: images/shap_summary_plot.png  used on input line 334.
 (pdftex.def)             Requested size: 227.64894pt x 270.87001pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <./images/decision_tree_feature_importances.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []\OT1/ppl/m/n/9.53561 Barry Becker and Ronny Ko-havi. \OT1/ppl/m/it/9.53561 Adult\OT1/ppl/m/n/9.53561 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 \OT1/ppl/m/n/9.53561 UCI Ma-chine Learn-ing Repos-i-tory. DOI:
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 343.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 348.
 (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1910) in paragraph at lines 344--344
+Underfull \hbox (badness 1910) in paragraph at lines 349--349
 []\OT1/ppl/m/n/9.53561 Marco Tulio Ribeiro, Sameer Singh, and Car-los
  []
 
@@ -954,15 +954,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20808 strings out of 475248
- 364530 string characters out of 5757812
- 2396785 words of memory out of 5000000
- 42000 multiletter control sequences out of 15000+600000
- 605033 words of font info for 129 fonts, out of 8000000 for 9000
+ 20810 strings out of 475248
+ 364561 string characters out of 5757812
+ 2278785 words of memory out of 5000000
+ 42001 multiletter control sequences out of 15000+600000
+ 605708 words of font info for 130 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  75i,10n,81p,1459b,1610s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (5 pages, 286399 bytes).
+Output written on main.pdf (5 pages, 285841 bytes).
 PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
