@@ -20,21 +20,34 @@
 \usepackage{tabularx}
 \usepackage{caption}
 \usepackage{booktabs}
-\usepackage{listings}
 \usepackage{xcolor}
 \usepackage{float}
 
+% Define custom colors for syntax highlighting (optional)
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
 \lstset{
-    basicstyle=\ttfamily\footnotesize,
+    language=Python,
+    caption={Training a Decision Tree Classifier},
+    captionpos=b,
+    basicstyle=\scriptsize, % Adjust the font size here
+    backgroundcolor=\color{backcolour}, % Background color (optional)
+    commentstyle=\color{codegreen},
     keywordstyle=\color{blue},
-    commentstyle=\color{green!30!black},
-    stringstyle=\color{red},
-    showstringspaces=false,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    breakatwhitespace=false,
     breaklines=true,
+    numbers=left,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=1,
     frame=none,
-    numbers=left, 
-    numberstyle=\tiny,
-    backgroundcolor = \color{lightgray!20!white},
+    linewidth=0.95\columnwidth, % Adjust the line width to fit within the column
+    xleftmargin=0.05\columnwidth,
 }
 
 \graphicspath{{images/}}
@@ -135,9 +148,6 @@ Concept Activation Vectors are user-friendly concepts used by TCAV to explain ne
 \subsubsection{Decision sets}
 Opposite to black-box models, the decision sets capture the decision-making process by generating a set of rules outlining the conditions in which the model predicts certain outcomes, helping understand the model's decision boundaries.
 
-\subsubsection{LIME }
-The Local Interpretable model-agnostic explanations aim to approximate any black-box machine learning model with a local and interpretable model explaining each individual prediction.
-
 \section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
 As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers.
 Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
@@ -229,115 +239,119 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 \end{itemize}
 
 \subsection{Using Python to interpret predictions}
-In this section, I will use Python to interpret predictions made by a machine learning model, using the "Adult Income" described above.
+In this section, I will use Python to interpret predictions made by a machine learning model, using the "Adult Income" described above. I will be using libraries like \texttt{pandas} for data handling, \texttt{sklearn} for building the model, and \texttt{shap} and \texttt{lime} for explainability.
 
-\subsubsection{Importing the libraries}
+\subsubsection{Loading and Preparing the dataset}
+Using panda, the first step is to load the data and preprocess it, in a way to handle missing values  and spliting the dataset into features \texttt{X} and target \texttt{y}.
 
-\begin{lstlisting}[language=Python, caption={Import libraries}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Import necessary libraries
-    import pandas as pd
-    from sklearn.model_selection import train_test_split
-    from sklearn.tree import DecisionTreeClassifier, plot_tree
-    from sklearn.ensemble import RandomForestClassifier
-    from sklearn.metrics import accuracy_score
-    import shap
-    from lime import lime_tabular
-    import matplotlib.pyplot as plt
-\end{lstlisting}
+\subsubsection{Training a Machine Learning Model}
+To train the model, I will be using the \texttt{DecisionTreeClassifier} from scikit-learn for the classification task. The model will be trained using the training set and then evaluated using the test set.
 
-\subsubsection{Loading the dataset}
-\begin{lstlisting}[language=Python, caption={Load dataset}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Load the Adult Income dataset (replace 'path_to_data' with your actual path)
-    data_url = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
-    columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation',
-               'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country', 'income']
-    data = pd.read_csv(data_url, header=None, names=columns, na_values=' ?', skipinitialspace=True)
-    data.describe()
-    data
-  
-    
-\end{lstlisting}
-
-\subsubsection{Data Preprocessing}
-
-\begin{lstlisting}[language=Python, caption={Data Preprocessing}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Preprocess the data
-    data = data.dropna()
-    data_encoded = pd.get_dummies(data, columns=['workclass', 'education', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'native-country'])
-    X = data_encoded.drop('income', axis=1)
-    y = data_encoded['income']
-\end{lstlisting}
-
-\subsubsection{Splitting the dataset into training and test sets}
-\begin{lstlisting}[language=Python, caption={Splitting the dataset into training and test sets}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Split the data into training and testing sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-  
-\end{lstlisting}
-
-\subsubsection{Training a Decision Tree Classifier}
-
-\begin{lstlisting}[language=Python, caption={Training a Decision Tree Classifier}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Train a decision tree model
+\begin{lstlisting}[caption=Training a Decision Tree Classifier]
+    # Train the Model
     decision_tree_model = DecisionTreeClassifier(random_state=42)
     decision_tree_model.fit(X_train, y_train)
-    
-    # Evaluate the Decision Tree model
-    y_pred_dt = decision_tree_model.predict(X_test)
-    accuracy_dt = accuracy_score(y_test, y_pred_dt)
-    print(f"Decision Tree Accuracy: {accuracy_dt}")
-    
+    # Make predictions
+    y_pred = decision_tree_model.predict(X_test)
 \end{lstlisting}
 
-\textbf{Decision Tree Accuracy: 0.82081989866421}
+\subsubsection{Evaluating the Model}
+To evaluate the model, I will be using the \texttt{accuracy\_score} from scikit-learn. The accuracy score is the fraction of predictions the model got right.
 
-\subsubsection{Simplify feature names for visualization}
-\begin{lstlisting}[language=Python, captionpos=b,  basicstyle=\scriptsize]
-    # Simplify feature names for visualization
-    feature_names_simplified = [col.split('_')[0] if '_' in col else col for col in X.columns]
+\begin{lstlisting}[caption=Evaluating the Model]
+    # Evaluate the classifier
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Decision Tree Accuracy: {accuracy}")
 \end{lstlisting}
 
+\texttt{accuracy\_score} returns the accuracy of the model, which is 0.81, meaning that the model got 81\% of the predictions right.
 
+\subsubsection{Global Explanation with Feature Importances}
 
-\subsubsection{Visualize the Decision Tree}
-\begin{lstlisting}[language=Python, caption={Visualize the Decision Tree}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Feature importances from the Decision Tree
-    feature_importances = decision_tree_model.feature_importances_
-    # Create a bar plot for feature importances
-    plt.figure(figsize=(12, 8))
-    plt.barh(feature_names_simplified, feature_importances)
-    plt.xlabel('Feature Importance')
-    plt.title('Decision Tree Feature Importances')
+To understand the overall model behaviour, we can use the feature importances to understand which features are more important for the model. The higher the value, more important the feature is for the model.
+
+\begin{lstlisting}[caption=Feature Importances, label=feature_importances]
+    # Get feature importances
+    importances = model.feature_importances_
+    # Plot feature importances
+    plt.barh(X.columns, importances)
+    plt.xlabel("Feature Importance")
+    plt.ylabel("Feature")
     plt.show()    
 \end{lstlisting}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{images/decision_tree_feature_importances.png}
-    \caption{Decision Tree Feature Importances}
-    \label{fig:decision_tree_feature_importances}
+    \includegraphics[width=1\linewidth]{images/feature_importance_global.png}    
+    \caption{Decision Tree Feature Importance}
+    \label{fig:feature_importances}
 \end{figure}
 
-\subsubsection{Apply SHAP for Global Explanations}
+\autoref{fig:feature_importances} shows the output of code from Listing~\ref{feature_importances} feature importances for the "Adult Income" dataset. We can see that the most important features are \texttt{marital-status}, \texttt{fnlwgt}, \texttt{education-num}, \texttt{age} and \texttt{capital-gain}.
 
-\begin{lstlisting}[language=Python, caption={Apply Post-Hoc Explanations}, label=python_code, captionpos=b,  basicstyle=\scriptsize]
-    # Apply SHAP for global explanations
-    shap_values_dt = shap.TreeExplainer(decision_tree_model).shap_values(X)
-    
-    # Generate bar charts for SHAP values
-    shap.summary_plot(shap_values_dt[1], X, feature_names=feature_names_simplified, class_names=['<=50K', '>50K'], plot_type='bar')
-    
+
+\subsubsection{Local Explanation with SHAP}
+For local explanations, I will first use SHAP (SHapley Additive exPlanations). It provides an explanation for each feature, showing how each feature contributes to the prediction. 
+
+\begin{lstlisting}[caption=SHAP Explainer , label=shap_explainer]
+    shap_values = shap.TreeExplainer(decision_tree_model).shap_values(X)
+    shap.summary_plot(shap_values, X)
 \end{lstlisting}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{images/shap_summary_plot.png}
-    \caption{SHAP Summary Plot}
-    \label{fig:shap_summary_plot}
-    \end{figure}
+    \includegraphics[width=1\linewidth]{images/shap_summary_plot.png}
+    \caption{SHAP Decision Plot}
+    \label{fig:shap_explainer}
+\end{figure}
+\textit{Note: In this SHAP summary plot, 'class 0' corresponds to incomes '$\leq$€50,000', and 'class 1' corresponds to incomes '$>$€50,000'.}
+\\
+
+\autoref{fig:shap_explainer} shows the output of code from Listing~\ref{shap_explainer} for the "Adult Income" dataset. It demonstrates the key features influencing the model's predictions for the higher income bracket (class 1).
+The \texttt{marital-status} is showing as the feature with the highest mean SHAP value of 0.1345, suggesting a strong association between being married and predicting higher income.
+In terms of educational background, \texttt{education-num} with a mean SHAP value of 0.0779 suggesting a considerable influence, meaning that the higher the education level, the higher the income. Similarly, 
+\texttt{age} of the individual, with a mean SHAP value of 0.0603, indicating that older individuals tend to fall into the higher income category according to the model.
+Financial indicators like \texttt{capital-gain} with a mean SHAP of 0.0524, and \texttt{hours-per-week} with 0.0417 are also prominent.
+The more a individual earns from the capital gains, more likely they are to fall into the higher income category. Similarly, the more hours an individual works per week, more likely they are to fall into the higher income category.
+Other features like \texttt{fnlwgt}, \texttt{relationship\_Husband} and various occupational roles such as \texttt{occupation\_Exec-managerial}, \texttt{occupation\_Prof-specialty} have smaller but significant positive SHAP values, indicating that these features also contribute to the model's predictions for the higher income category.
 
 
-\section{Future Work}
+\subsubsection{Local Explanation with LIME}
+
+Another option that can be used is LIME (Local Interpretable Model-agnostic Explainer). It also provides an explanation for each feature, showing how each feature contributes to the prediction.
+
+
+\begin{lstlisting}[caption=LIME Explainer , label=lime_explainer]
+    # Extracting feature names and weights from LIME explanation
+    feature_names, weights = zip(*exp.as_list())    
+    # Convert to list if not already
+    feature_names = list(feature_names)
+    weights = list(weights)    
+    # Verify the data format
+    print("Feature Names:", feature_names)
+    print("Weights:", weights)    
+    # Creating a bar plot
+    plt.figure(figsize=(8, 6))
+    sns.barplot(x=weights, y=feature_names, palette='viridis')
+    plt.title('Feature Contribution to the Prediction')
+    plt.xlabel('Weight')
+    plt.ylabel('Feature')
+    plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/lime_summary_plot.png}
+    \caption{LIME Decision Plot}
+    \label{fig:lime_explainer}
+\end{figure}
+
+\autoref{fig:lime_explainer} shows the output of the code from Listing~\ref{lime_explainer} for the "Adult Income" dataset. This output highlights the top ten features that significantly influence an individual's income category according to the model's prediction.
+Each feature is listed alongside a numerical weight, which quantifies the feature's influence on the prediction. 
+The feature \texttt{capital-gain $\leq$ 0.00} has the most significant negative weight (-0.4817176518811231), suggesting that a strong link between having no or minimal capital gain and earning an income that's is less than €50,000 anually. On the other hand, features such as \texttt{native-country\_Poland $\leq$ 0.00}, \texttt{native-country\_Hong $\leq$ 0.00}, and \texttt{education\_Preschool $\leq$ 0.00} have positive weights 
+(0.3280648148846505, 0.2812235627400507, and 0.27962517534951975, respectively), suggesting that the absence of these conditions (e.g., not being from Poland, not being from Hong, not having preschool education) tends to associate with earning a higher income. This LIME analysis provides a localized interpretation for a specific instance, offering insights into why the model might have predicted a particular income category for an individual based on their feature values. 
+Other features, such as \texttt{native-country\_Guatemala $\leq$ 0.00} and \texttt{native-country\_Ireland $\leq$ 0.00}, also positively influence predictions towards a higher income, but their impact is somewhat less when compared to the other features. The negative weights of \texttt{native-country\_Nicaragua $\leq$ 0.00} 
+and \texttt{native-country\_Portugal $\leq$ 0.00} indicate a tendency towards predicting lower income levels for individuals from these countries.
 
 
 \section{Conclusion}
