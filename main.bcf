@@ -2365,7 +2365,7 @@
     <bcf:citekey order="2" intorder="1">doshivelez2017rigorous</bcf:citekey>
     <bcf:citekey order="3" intorder="1">analytical-review</bcf:citekey>
     <bcf:citekey order="4" intorder="1">xai-concept</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">xai-ml</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">antoniadi2021current</bcf:citekey>
     <bcf:citekey order="6" intorder="1">transparency</bcf:citekey>
     <bcf:citekey order="7" intorder="1">gilpin2019explaining</bcf:citekey>
     <bcf:citekey order="8" intorder="1">gilpin2019explaining</bcf:citekey>
@@ -2378,8 +2378,8 @@
     <bcf:citekey order="15" intorder="1">phillips2020four</bcf:citekey>
     <bcf:citekey order="16" intorder="1">why-trust-you</bcf:citekey>
     <bcf:citekey order="17" intorder="1">phillips2020four</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">misc_adult_2</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">phillips2020four</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">phillips2020four</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">misc_adult_2</bcf:citekey>
     <bcf:citekey order="22" intorder="1">misc_adult_2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

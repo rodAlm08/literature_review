@@ -100,7 +100,7 @@ In \autoref{fig:xaiGraphic} we can easily understand the main differences betwee
 
 \section{Definitions}
 
-Explainable AI (XAI) is a field focused on increasing human understanding of AI systems. Although terms like transparency, interpretability, and explainability are frequently used together, they can have different meanings, there are differences between these theories.\cite{xai-ml}
+Explainable AI (XAI) is a field focused on increasing human understanding of AI systems. Although terms like transparency, interpretability, and explainability are frequently used together, they can have different meanings, there are differences between these theories.\cite{antoniadi2021current}
 
 \begin{itemize}
     \item {Transparency}: a model deemed transparent is one that can be understood easily on its own. It is the opposite of a "black box", indicating that the inner workings of the model are understandable\cite{transparency}.
@@ -112,7 +112,7 @@ Explainable AI (XAI) is a field focused on increasing human understanding of AI 
 Researchers have developed many algorithms to explain AI systems. These explanations could be categorized into two primary groups: self-interpretable models refer to the algorithm model itself or a representation of the algorithm that can be directly read and comprehended by a human. In this case, the model itself serves as the explanation. On the other hand, post-hoc explanations are descriptions, explanations, or models of the algorithm often produced by separate software tools. These tools aim to provide an understanding of how the algorithm operates. Post-hoc explanations are particularly useful for algorithms for which the inner workings are not fully transparent, as they can be employed to generate insights without requiring deep knowledge of the algorithm's internal mechanisms. Instead, they rely on querying the algorithm for outputs based on selected inputs.\cite{phillips2020four}.
 
 \subsection{Self-interpratable Models}
-Models that are self interpratable are those that serve as the explanation themselves. They not only describe the entire model but also it goes through each input, replicating the input on the self-interpretable model can providing a justification for each decision.
+Models that are self interpratable are those that serve as the explanation themselves. They not only describe the entire model but also goes through each input, replicating it on the self-interpretable model providing a justification for each decision.
 Common self-interpretable models are decision trees and regression models. Ongoing research aims to create more interpretable models that surpass the accuracy of basic decision trees and regression models. These newer models include decision lists, decision sets, prototypes (representative samples of each class), feature combination rules, Bayesian Rule Lists, additive decision trees, and improved versions of decision trees.\cite{phillips2020four}
 Some sources suggest there is a trade-off between accuracy and interpretability with self-interpretable models being less accurate than post-hoc models. The challenge, in this case, is really to balance the precision of the model with what it means to humans. However, scholars like Rudin\cite{rudin} and Radin\cite{radin} in their research called "Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition", disagree, explaining that there is not necessarily a trade-off between accuracy and interpretability. In many cases, interpretable models can be utilized without sacrificing decision accuracy.\cite{phillips2020four}
 
@@ -137,7 +137,7 @@ Such context in XAI helps stakeholders to cope with potential issues understandi
 PDPs show the change in the response when a value changes in the feature, showing some insights about the relationship between the feature and the response. It is particularly useful when trying to determine if the relationship between a feature and the response is linear or more complex, understanding how the model behaves for individual features.\cite{phillips2020four}
 
 \subsubsection{ICE - Individual Conditional Expectation Curves}
-Individual conditional expectation curves are a more user-friendly way to understand how a feature influences a prediction for a single instance. by doing so, it makes it easier to understand how the model behaves for a specific case.
+Individual conditional expectation curves are a more user-friendly way to understand how a feature influences a prediction for a single instance, by doing so, it makes it easier to understand how the model behaves for a specific case.
 
 \subsubsection{TCAV - Testing with Concept Activation Vectors}
 This is a global algorithm designed to explain neural networks in a way that is easier to understand. It represents the neural network state using a linear interpretation of the internals of deep learning.
@@ -148,11 +148,7 @@ Concept Activation Vectors are user-friendly concepts used by TCAV to explain ne
 \subsubsection{Decision sets}
 Opposite to black-box models, the decision sets capture the decision-making process by generating a set of rules outlining the conditions in which the model predicts certain outcomes, helping understand the model's decision boundaries.
 
-\section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
-As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers.
-Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
-
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \small
     \begin{tabularx}{\columnwidth}{|p{1.8cm}|X|X|}
@@ -175,7 +171,7 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 \end{table}
 
 \section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
-As a case study, I will use the "Adult Income" data set\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker and is often cited in machine learning literature and research papers.
+As a case study, I will use the "Adult Income" dataset\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker \cite{misc_adult_2} and is often cited in machine learning literature and research papers.
 Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
 
 \begin{table}[h]
@@ -234,7 +230,7 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 
     \item \textbf{Native Country:} Indicates the individual's country of origin. Depending on the country of origin the individual may be impacted by less or more opportunities. It is divided into: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad \& Tobago, Peru, Hong, Holand-Netherlands.
 
-    \item \textbf{Income:} This is the target variable indicating whether the individual's income exceeds  \$50,000 per year. This is the variable we are trying to predict.
+    \item \textbf{Income:} This is the target variable indicating whether the individual's income exceeds  \$50,000 per year. \textbf{This is the variable we are trying to predict}.
 
 \end{itemize}
 
@@ -287,7 +283,7 @@ To understand the overall model behaviour, we can use the feature importances to
     \label{fig:feature_importances}
 \end{figure}
 
-\autoref{fig:feature_importances} shows the output of code from Listing~\ref{feature_importances} feature importances for the "Adult Income" dataset. We can see that the most important features are \texttt{marital-status}, \texttt{fnlwgt}, \texttt{education-num}, \texttt{age} and \texttt{capital-gain}.
+\autoref{fig:feature_importances} shows the output of code from Listing~\ref{feature_importances} for the "Adult Income" dataset. We can see that the most important features are \texttt{marital-status}, \texttt{fnlwgt}, \texttt{education-num}, \texttt{age} and \texttt{capital-gain}.
 
 
 \subsubsection{Local Explanation with SHAP}
@@ -355,6 +351,15 @@ and \texttt{native-country\_Portugal $\leq$ 0.00} indicate a tendency towards pr
 
 
 \section{Conclusion}
+In conclusion this literature review explored the importance of Explainable Artificial Inteligence (XAI), highlighting the importance of AI systems from various sectors, from healthcare to finance, to be more than just accurate and efficient.
+They must also be transparent, interpretable, and explainable. This is particularly important for critical applications where the consequences of a wrong prediction can be severe. 
+The review begins by addressing the challenges posed by "black box" models, which are difficult to understand and explain. It then discusses the importance of explainability in AI systems, highlighting the need for transparency, interpretability, and explainability.
+The emergence of XAI is a response to these challenges, aiming to make AI decisions more transparent and interpretable. Diving into the core of XAI, the review differentiates between transparency, interpretability and explainability, highlighting the differences between these concepts.
+Each of these aspects contributes uniquely to the goal of making AI more understanble and accountable.
+Moreover, the case study using the "Adult Income" dataset demonstrates how XAI can be used to interpret predictions made by a machine learning model. The application of tools like SHAP and LIME provides insights into the model's behaviour, helping us understand why the model made a particular prediction for a specific individual.
+This is particularly important for critical applications where the consequences of a wrong prediction can be severe.
+As AI continues to advance and become more integrated into our lives, the need for explainability will only increase. It stands at the intersection of technology and ethics, demanding balance between the two.
+In summary, "Why Explain a Decision Made by AI?" is not only a question, it is a call to action for the AI community to make AI more transparent, interpretable, and explainable. The future of AI as discussed in this review, is one where AI systems are not only accurate and efficient, but also transparent, interpretable, and explainable, aligning with the needs of society, values and ethical considerations.
 
 
 

@@ -51,6 +51,25 @@
       \verb{doi}
       \verb 10.1109/ACCESS.2018.2870052
       \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ACCESS.2018.2870052
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ACCESS.2018.2870052
+      \endverb
+    \endentry
+    \entry{xai-concept}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{note}{Image depicting the difference between AI and XAI concepts}
+      \field{title}{AI concept vs. XAI Concept}
+      \verb{urlraw}
+      \verb https://www.darpa.mil/ddm_gallery/xai-figure2-inline-graphic.png
+      \endverb
+      \verb{url}
+      \verb https://www.darpa.mil/ddm_gallery/xai-figure2-inline-graphic.png
+      \endverb
     \endentry
     \entry{analytical-review}{article}{}
       \name{author}{5}{}{%
@@ -99,7 +118,7 @@
       \verb 10.1002/widm.1424
       \endverb
     \endentry
-    \entry{xai-ml}{article}{}
+    \entry{antoniadi2021current}{article}{}
       \name{author}{7}{}{%
         {{hash=b0a6e3616287426cd7458c3488f40f04}{%
            family={Antoniadi},
@@ -157,6 +176,12 @@
       \field{year}{2021}
       \field{pages}{5088}
       \range{pages}{1}
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/app11115088
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/app11115088
+      \endverb
     \endentry
     \entry{misc_adult_2}{misc}{}
       \name{author}{2}{}{%
@@ -182,9 +207,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{UCI Machine Learning Repository}
-      \field{note}{{DOI}: https://doi.org/10.24432/C5XW20}
-      \field{title}{{Adult}}
+      \field{title}{Adult}
       \field{year}{1996}
+      \verb{urlraw}
+      \verb https://archive.ics.uci.edu/dataset/2/adult
+      \endverb
+      \verb{url}
+      \verb https://archive.ics.uci.edu/dataset/2/adult
+      \endverb
     \endentry
     \entry{doshivelez2017rigorous}{misc}{}
       \name{author}{2}{}{%
@@ -268,22 +298,7 @@
       \verb 1806.00069
       \endverb
     \endentry
-    \entry{radin}{misc}{}
-      \field{sortinit}{h}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{note}{Joanna Radin}
-    \endentry
-    \entry{rudin}{misc}{}
-      \field{sortinit}{h}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{note}{Cynthia Rudin}
-    \endentry
-    \entry{xai-concept}{misc}{}
-      \field{sortinit}{h}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{note}{AI concept vs. XAI Concept}
-    \endentry
-    \entry{phillips2020four}{article}{}
+    \entry{phillips2020four}{misc}{}
       \name{author}{5}{}{%
         {{hash=919d677f582b731ebd2e1a83d1f4c206}{%
            family={Phillips},
@@ -321,10 +336,42 @@
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Gaithersburg, Maryland}
+      \field{howpublished}{NIST Interagency or Internal Report (NISTIR) 8312}
       \field{title}{Four principles of explainable artificial intelligence}
-      \field{volume}{18}
       \field{year}{2020}
+      \verb{urlraw}
+      \verb https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8312.pdf
+      \endverb
+      \verb{url}
+      \verb https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8312.pdf
+      \endverb
+    \endentry
+    \entry{radin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=06e49bd0b986f4c24e3dc6ab9afa7777}{%
+           family={Radin},
+           familyi={R\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{06e49bd0b986f4c24e3dc6ab9afa7777}
+      \strng{fullhash}{06e49bd0b986f4c24e3dc6ab9afa7777}
+      \strng{bibnamehash}{06e49bd0b986f4c24e3dc6ab9afa7777}
+      \strng{authorbibnamehash}{06e49bd0b986f4c24e3dc6ab9afa7777}
+      \strng{authornamehash}{06e49bd0b986f4c24e3dc6ab9afa7777}
+      \strng{authorfullhash}{06e49bd0b986f4c24e3dc6ab9afa7777}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{MIT press profile}
+      \field{title}{Joanna Radin}
+      \verb{urlraw}
+      \verb https://hdsr.mitpress.mit.edu/user/joanna-radin
+      \endverb
+      \verb{url}
+      \verb https://hdsr.mitpress.mit.edu/user/joanna-radin
+      \endverb
     \endentry
     \entry{why-trust-you}{inproceedings}{}
       \name{author}{3}{}{%
@@ -378,6 +425,33 @@
       \verb https://doi.org/10.1145/2939672.2939778
       \endverb
       \keyw{interpretability,explaining machine learning,black box classifier,interpretable machine learning}
+    \endentry
+    \entry{rudin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ed6b4fef67abb4c043b72d1843b36826}{%
+           family={Rudin},
+           familyi={R\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed6b4fef67abb4c043b72d1843b36826}
+      \strng{fullhash}{ed6b4fef67abb4c043b72d1843b36826}
+      \strng{bibnamehash}{ed6b4fef67abb4c043b72d1843b36826}
+      \strng{authorbibnamehash}{ed6b4fef67abb4c043b72d1843b36826}
+      \strng{authornamehash}{ed6b4fef67abb4c043b72d1843b36826}
+      \strng{authorfullhash}{ed6b4fef67abb4c043b72d1843b36826}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Scholar profile}
+      \field{title}{Cynthia Rudin - Google Scholar Citations}
+      \verb{urlraw}
+      \verb https://scholar.google.com/citations?user=mezKJyoAAAAJ&hl=en
+      \endverb
+      \verb{url}
+      \verb https://scholar.google.com/citations?user=mezKJyoAAAAJ&hl=en
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
