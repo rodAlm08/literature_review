@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  22 DEC 2023 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  23 DEC 2023 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,185 +645,185 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 84.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 87.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 84.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.04124> on input line 84.
+(Font)              <11.04124> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.72884> on input line 84.
+(Font)              <7.72884> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.52061> on input line 84.
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 84.
+(Font)              <5.52061> on input line 87.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 87.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-<images/xaiGraphic.png, id=100, 643.40375pt x 283.0575pt>
+<images/xaiGraphic.png, id=101, 643.40375pt x 283.0575pt>
 File: images/xaiGraphic.png Graphic file (type png)
 <use images/xaiGraphic.png>
-Package pdftex.def Info: images/xaiGraphic.png  used on input line 98.
+Package pdftex.def Info: images/xaiGraphic.png  used on input line 108.
 (pdftex.def)             Requested size: 238.05565pt x 104.72963pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 108.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.53561> on input line 108.
+(Font)              <9.53561> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.6749> on input line 108.
+(Font)              <6.6749> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.7678> on input line 108.
+(Font)              <4.7678> on input line 118.
 [1{C:/Users/rodri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
  <./images/xaiGraphic.png>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 128.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 138.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 \OT1/ppl/m/n/9.53561 Global ex-pla-na-tions pro-duce post-hoc ex-pla-na-tions
  []
 
 
-Underfull \hbox (badness 7415) in paragraph at lines 172--172
+Underfull \hbox (badness 7415) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 It will fo-cus on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 un-der-stand-ing the
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 172--172
+Underfull \hbox (badness 6859) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 model's be-haviour
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 across the en-tire
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 Aims to ex-plain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 why a par-tic-u-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 Higher level
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 overview of the
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 172--172
+Underfull \hbox (badness 3179) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 model's be-haviour,
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 172--172
+Underfull \hbox (badness 1490) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 trends and fea-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 im-por-tance across
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 PDPs, ICE, SP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 LIME, TCAV,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 de-ci-sion sets,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 and sum-mary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 of coun-ter-fac-tual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 why a spe-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 pre-dic-tion was
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 172--172
+Underfull \hbox (badness 5064) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 like health-care or
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 172--172
+Underfull \hbox (badness 1939) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 Focus on iden-ti-fy-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 172--172
+Underfull \hbox (badness 6859) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 model's be-haviour
  []
 
 
-Overfull \hbox (12.50824pt too wide) in paragraph at lines 172--172
+Overfull \hbox (12.50824pt too wide) in paragraph at lines 182--182
 []|\OT1/ppl/b/n/9.03374 Interpretability| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 Easier to un-der-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 stand in-di-vid-ual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 cases fo-cus-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 on the spe-cific
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 172--172
+Underfull \hbox (badness 3189) in paragraph at lines 182--182
 []|\OT1/ppl/m/n/9.03374 A wider view of
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 172--172
+Underfull \hbox (badness 5217) in paragraph at lines 182--182
 \OT1/ppl/m/n/9.03374 mak-ers seek-ing a
  []
 
@@ -831,146 +831,141 @@ Underfull \hbox (badness 5217) in paragraph at lines 172--172
 Underfull \vbox (badness 2781) has occurred while \output is active []
 
  [2]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 178.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 188.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in alignment at lines 204--204
+Underfull \hbox (badness 10000) in alignment at lines 214--214
 [][][][][][]
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 219--220
+Underfull \hbox (badness 1803) in paragraph at lines 229--230
 []\OT1/ppl/b/n/9.53561 Marital Sta-tus: \OT1/ppl/m/n/9.53561 This de-scribes the mar-i-tal sta-
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 219--220
+Underfull \hbox (badness 2772) in paragraph at lines 229--230
 \OT1/ppl/m/n/9.53561 civ-spouse, Di-vorced, Never-married, Sep-a-rated,
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 221--222
+Underfull \hbox (badness 1509) in paragraph at lines 231--232
 \OT1/ppl/m/n/9.53561 in-di-vid-ual is in-volved with. It is di-vided into
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 221--222
+Underfull \hbox (badness 7064) in paragraph at lines 231--232
 \OT1/ppl/m/n/9.53561 Tech-support, Craft-repair, Other-service, Sales,
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 221--222
+Underfull \hbox (badness 1354) in paragraph at lines 231--232
 \OT1/ppl/m/n/9.53561 Machine-op-inspct, Adm-clerical, Farming-fishing,
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 235--236
+Underfull \hbox (badness 1796) in paragraph at lines 245--246
 \OT1/ppl/m/n/9.53561 Scot-land, Thai-land, Yu-goslavia, El-Salvador, Tri-
  []
 
 [3]
-Underfull \hbox (badness 2772) in paragraph at lines 237--238
+Underfull \hbox (badness 2772) in paragraph at lines 247--248
 []\OT1/ppl/b/n/9.53561 Income: \OT1/ppl/m/n/9.53561 This is the tar-get vari-able in-di-cat-ing
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 242.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 252.
 (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 250.
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 264.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 260.
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 274.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <7.02625> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
-<images/feature_importance_global.png, id=157, 771.1209pt x 505.1673pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 274.
+<images/feature_importance_global.png, id=158, 771.1209pt x 505.1673pt>
 File: images/feature_importance_global.png Graphic file (type png)
 <use images/feature_importance_global.png>
-Package pdftex.def Info: images/feature_importance_global.png  used on input line 286.
+Package pdftex.def Info: images/feature_importance_global.png  used on input line 296.
 (pdftex.def)             Requested size: 252.94499pt x 165.70364pt.
-<images/shap_summary_plot.png, id=160, 570.933pt x 679.338pt>
+<images/shap_summary_plot.png, id=161, 570.933pt x 679.338pt>
 File: images/shap_summary_plot.png Graphic file (type png)
 <use images/shap_summary_plot.png>
-Package pdftex.def Info: images/shap_summary_plot.png  used on input line 304.
+Package pdftex.def Info: images/shap_summary_plot.png  used on input line 314.
 (pdftex.def)             Requested size: 252.94499pt x 300.97244pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
 
  []
 
 [4 <./images/feature_importance_global.png> <./images/shap_summary_plot.png>]
-<images/lime_summary_plot.png, id=193, 662.7159pt x 393.8715pt>
+<images/lime_summary_plot.png, id=194, 662.7159pt x 393.8715pt>
 File: images/lime_summary_plot.png Graphic file (type png)
 <use images/lime_summary_plot.png>
-Package pdftex.def Info: images/lime_summary_plot.png  used on input line 345.
+Package pdftex.def Info: images/lime_summary_plot.png  used on input line 355.
 (pdftex.def)             Requested size: 252.94499pt x 150.33382pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 350--356
-\OT1/ppl/m/n/9.53561 in-come cat-e-gory ac-cord-ing to the model's pre-dic-tion.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--356
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 \OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00\OT1/ppl/m/n/9.53561 , \OT1/pcr/m/n/9.53561 native-country_Hong $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00\OT1/ppl/m/n/9.53561 , and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--356
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 \OT1/pcr/m/n/9.53561 education_Preschool $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 has pos-i-tive
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 350--356
+Underfull \hbox (badness 5490) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 weights (0.3280648148846505, 0.2812235627400507, and
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 350--356
+Underfull \hbox (badness 2088) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 0.27962517534951975, re-spec-tively), sug-gest-ing that the
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 350--356
+Underfull \hbox (badness 1400) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 of a spe-cific in-stance, of-fer-ing in-sights into why the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--356
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 fea-tures, such as \OT1/pcr/m/n/9.53561 native-country_Guatemala $\OMS/cmsy/m/n/10 ^^T$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--356
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 and \OT1/pcr/m/n/9.53561 native-country_Ireland $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00\OT1/ppl/m/n/9.53561 ,
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 350--356
+Underfull \hbox (badness 5652) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 in-come, but their im-pact is some-what less when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--356
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 of \OT1/pcr/m/n/9.53561 native-country_Nicaragua $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--356
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 \OT1/pcr/m/n/9.53561 native-country_Portugal $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 in-di-cates a
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 350--356
+Underfull \hbox (badness 1888) in paragraph at lines 360--366
 \OT1/ppl/m/n/9.53561 ten-dency to-wards pre-dict-ing lower in-come lev-els for
  []
 
 [5 <./images/lime_summary_plot.png>]
-Underfull \hbox (badness 1910) in paragraph at lines 374--374
+Underfull \hbox (badness 1910) in paragraph at lines 384--384
 []\OT1/ppl/m/n/9.53561 Marco Tulio Ribeiro, Sameer Singh, and Car-los
  []
 
@@ -994,9 +989,9 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  75i,10n,81p,1459b,1606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (6 pages, 343745 bytes).
+Output written on main.pdf (6 pages, 343928 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
+ 323 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
