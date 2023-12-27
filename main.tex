@@ -115,10 +115,13 @@ In \autoref{fig:xaiGraphic}, we can easily understand the main differences betwe
 Explainable AI (XAI) is a field focused on increasing human understanding of AI systems. Although terms like transparency, interpretability, and explainability are frequently used together, they can have different meanings, and there are differences between these theories.\cite{antoniadi2021current}
 
 \begin{itemize}
-    \item {Transparency}: a model deemed transparent can be understood easily on its own. It is the opposite of a "black box", indicating that the models's inner workings are understandable\cite{transparency}.
+    \item {Transparency}: It is the ability to understand the inner workings of an AI system. It is the degree to which 
+    a model deemed transparent can be understood easily on its own. It is the opposite of a "black box", indicating that the models's inner workings are understandable\cite{transparency}.
     \item {Interpretability}: It is the ability to explain complex concepts or results in a way humans can easily understand\cite{gilpin2019explaining}.
-    \item {Explainability}: the concept that provides explanations as a bridge between AI systems and humans. It involves the ability to create AI systems that are not only accurate but also that people can understand.\cite{gilpin2019explaining}.
-\end{itemize}
+    \item {Explainability}: It is the concept that provides explanations as a bridge between AI systems and humans. It involves the ability to create AI systems that are not only accurate but also that people can understand.\cite{gilpin2019explaining}.
+    \item {Explainable AI (XAI)}: It is a field focused on increasing human understanding of AI systems. It is a set of tools and techniques that can be used to explain the decisions and predictions made by AI systems.\cite{antoniadi2021current}
+    
+   \end{itemize}
 
 \section{Overview of Explainable AI Algorithms}
 Researchers have developed many algorithms to explain AI systems. These explanations could be categorized into two primary groups: self-interpretable models refer to the algorithm model itself or a representation of the algorithm that can be directly read and comprehended by a human. In this case, the model itself serves as the explanation. On the other hand, post-hoc explanations are descriptions, explanations, or models of the algorithm often produced by separate software tools. These tools aim to provide an understanding of how the algorithm operates. Post-hoc explanations are handy for algorithms whose inner workings are not entirely transparent, as they can be employed to generate insights without requiring deep knowledge of the algorithm's internal mechanisms. Instead, they rely on querying the algorithm for outputs based on selected inputs.\cite{phillips2020four}.
@@ -129,40 +132,14 @@ Common self-interpretable models are decision trees and regression models. Ongoi
 Some sources suggest a trade-off between accuracy and interpretability, with self-interpretable models being less accurate than post-hoc models. In this case, the challenge is to balance the precision of the model with what it means to humans. However, scholars like Rudin\cite{rudin} and Radin\cite{radin}, in their research called "Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition", disagree, 
 explaining that a trade-off between accuracy and interpretability is not always necessary. They argue that interpretable models can be used without sacrificing accuracy. \cite{phillips2020four}
 
-\subsection{Pos-hoc Explanations}
-Post-hoc explanations refer to an explanation given after a model has been trained. In other words, the explanations are generated after the model has made the decision or prediction and not during the training phase. It is divided into two: local explanation and global explanation.
+\subsection{Post-hoc Explanations}
+Post-hoc explanations are descriptions, explanations, or models of the algorithm often produced by separate software tools. These tools aim to provide an understanding of how the algorithm operates. Post-hoc explanations are handy for algorithms whose inner workings are not entirely transparent, as they can be employed to generate insights without requiring deep knowledge of the algorithm's internal mechanisms. Instead, they rely on querying the algorithm for outputs based on selected inputs.\cite{phillips2020four}.
+In other words, the explanations are generated after the model has made the decision or prediction and not during the training phase. 
+Post-hoc explanations can be divided into two categories: local explanations and global explanations. 
 
-\subsection{Local Explanation} Local explanations explain a subset of inputs. It focuses on explaining the output for a specific data point. The most common type is a per-decision or single-decision explanation, which explains the output or decision on a single input.\cite{phillips2020four}
-These explanations focus on a single prediction and aim to answer the following question: "Why did this model make that particular prediction for that specific task?" There are some techniques used for local explanation. Some of the techniques used for local explanation are:
-
-\subsubsection{LIME - Local Interpretable Model-agnostic Explainer}
-LIME takes a specific decision made by an ML model and examines nearby data points, creating a simplified and interpretable model representing a locally made decision\cite{phillips2020four}. The default model is logistic regression.
-LIME breaks down the image into smaller regions called superpixels when dealing with images. It then explores combinations of these superpixels, omitting some and replacing some with black. By doing this, LIME aims to understand and explain how the model's decision is influenced by specific parts of the image.
-
-\subsubsection{SHAP - SHapley Additive exPlanations} SHAP is based on game theory concepts and can explain the predictions by calculating the contribution of every feature to the prediction. It explains how each feature impacts every model's prediction by considering their interaction consistently and fairly. This helps increase the interpretability by explaining the logic behind every prediction.\cite{why-trust-you}
-
-\subsection{Global Explanations}
-Global explanations produce post-hoc explanations throughout the whole dataset. It outlines the process used for the decision-making, mentioning tendencies,\\
-features and possible biases that the model should have learned from the data. Global explanations are essential to understanding the model's behaviours and ensuring fairness, identifying biases, and increasing trust in AI systems. \\
-Such context in XAI helps stakeholders cope with potential issues by understanding the impact and implications of decisions made by a model. Some of the techniques used for global explanation are:
-
-\subsubsection{PDPs - Partial Dependence Plots}
-PDPs show the change in the response when a value changes in the feature, showing the relationship between the feature and the response. It is a global method, meaning that it considers all the data points in the dataset.
-The advantage of PDPs is that it is easy to understand and can be used for any model. Especially useful when trying to understand the relationship between a feature and the response and how the model behaves for individual features.\cite{phillips2020four}
-
-\subsubsection{ICE - Individual Conditional Expectation Curves}
-Individual conditional expectation curves are a more user-friendly way to understand how a feature influences a prediction for a single instance, by doing so, it makes it easier to understand how the model behaves for a specific case.
-
-\subsubsection{TCAV - Testing with Concept Activation Vectors}
-This is a global algorithm designed to explain neural networks in a way that is easier to understand. It represents the neural network state using a linear interpretation of the internals of deep learning.
-
-\subsubsection{CAVs - Concept Activation Vectors}
-Concept Activation Vectors are user-friendly concepts used by TCAVs to explain neural networks. It is the numerical representation of a concept, making it more understandable to humans.
-
-\subsubsection{Decision sets}
-Unlike black-box models, decision sets capture the decision-making process by generating a set of rules outlining the conditions in which the model predicts specific outcomes, helping understand the model's decision boundaries.
-
-\begin{table}[H]
+\autoref*{tab:xai_comparison} shows a comparison between local and global explanations in XAI.
+ 
+\begin{table}[h]
     \centering
     \small
     \begin{tabularx}{\columnwidth}{|p{1.8cm}|X|X|}
@@ -183,6 +160,38 @@ Unlike black-box models, decision sets capture the decision-making process by ge
     \caption{Comparison of Local and Global Explanations in XAI}
     \label{tab:xai_comparison}
 \end{table}
+
+\subsection{Local Explanation} Local explanations explain a subset of inputs. It focuses on explaining the output for a specific data point. The most common type is a per-decision or single-decision explanation, which explains the output or decision on a single input.\cite{phillips2020four}
+These explanations focus on a single prediction and aim to answer the following question: "Why did this model make that particular prediction for that specific task?" There are some techniques used for local explanation. Some of the techniques used for local explanation are:
+
+\subsubsection{LIME - Local Interpretable Model-agnostic Explainer}
+LIME takes a specific decision made by an ML model and examines nearby data points, creating a simplified and interpretable model representing a locally made decision\cite{phillips2020four}. The default model is logistic regression.
+LIME breaks down the image into smaller regions called superpixels when dealing with images. It then explores combinations of these superpixels, omitting some and replacing some with black. By doing this, LIME aims to understand and explain how the model's decision is influenced by specific parts of the image.
+
+\subsubsection{SHAP - SHapley Additive exPlanations} SHAP is based on game theory concepts and can explain the predictions by calculating the contribution of every feature to the prediction. It explains how each feature impacts every model's prediction by considering their interaction consistently and fairly. This helps increase the interpretability by explaining the logic behind every prediction.\cite{why-trust-you}
+
+\subsection{Global Explanations}
+Global explanations produce post-hoc explanations throughout the whole dataset. It outlines the process used for the decision-making, mentioning tendencies,\\
+features and possible biases that the model should have learned from the data. Global explanations are essential to understanding the model's behaviours and ensuring fairness, identifying biases, and increasing trust in AI systems.\cite{phillips2020four} \\
+Such context in XAI helps stakeholders cope with potential issues by understanding the impact and implications of decisions made by a model. Some of the techniques used for global explanation are:
+
+\subsubsection{PDPs - Partial Dependence Plots}
+PDPs show the change in the response when a value changes in the feature, showing the relationship between the feature and the response. It is a global method, meaning that it considers all the data points in the dataset.
+The advantage of PDPs is that it is easy to understand and can be used for any model. Especially useful when trying to understand the relationship between a feature and the response and how the model behaves for individual features.\cite{phillips2020four}
+
+\subsubsection{ICE - Individual Conditional Expectation Curves}
+Individual conditional expectation curves are a more user-friendly way to understand how a feature influences a prediction for a single instance, by doing so, it makes it easier to understand how the model behaves for a specific case.
+
+\subsubsection{TCAV - Testing with Concept Activation Vectors}
+This is a global algorithm designed to explain neural networks in a way that is easier to understand. It represents the neural network state using a linear interpretation of the internals of deep learning.
+
+\subsubsection{CAVs - Concept Activation Vectors}
+Concept Activation Vectors are user-friendly concepts used by TCAVs to explain neural networks. It is the numerical representation of a concept, making it more understandable to humans.
+
+\subsubsection{Decision sets}
+Unlike black-box models, decision sets capture the decision-making process by generating a set of rules outlining the conditions in which the model predicts specific outcomes, helping understand the model's decision boundaries.
+
+
 
 \section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
 As a case study, I will use the "Adult Income" dataset\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker \cite{misc_adult_2} and is often cited in machine learning literature and research papers.
@@ -249,7 +258,7 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 \end{itemize}
 
 \subsection{Using Python to Interpret Predictions}
-In this section, the predictions made by a machine learning model using the "Adult Income" dataset will be interpreted using Python. Library \texttt{pandas} will be used for data handling, \texttt{sklearn} for building the model, and \texttt{shap} and \texttt{lime} for explainability.
+In this section, the predictions made by a machine learning model using the "Adult Income" dataset will be interpreted using Python. The library \texttt{pandas} will be used for data handling, \texttt{sklearn} for building the model, and \texttt{shap} and \texttt{lime} for explainability.
 
 \subsubsection{Loading and Preparing the Dataset}
 Using Panda, the first step is to load the data and preprocess it in a way that handles missing values and splits the dataset into features \texttt{X} and target \texttt{y}.
@@ -266,7 +275,6 @@ To train the model, \texttt{DecisionTreeClassifier} from scikit-learn will be us
 \end{lstlisting}
 
 \subsubsection{Evaluating the Model}
-To evaluate the model, I will be using the \texttt{accuracy\_score} from scikit-learn. The accuracy score is the fraction of predictions the model got right.
 
 \begin{lstlisting}[caption=Evaluating the Model]
     # Evaluate the classifier
@@ -274,12 +282,13 @@ To evaluate the model, I will be using the \texttt{accuracy\_score} from scikit-
     print(f"Decision Tree Accuracy: {accuracy}")
 \end{lstlisting}
 
-\texttt{accuracy\_score} returns the accuracy of the model, which is 0.81, meaning that the model got 81\% of the predictions right.
+To evaluate the model, \texttt{accuracy\_score} from scikit-learn will be used. The accuracy score is the fraction of predictions the model got right.
+It returns the accuracy of the model, which is 0.81 in this case, meaning that the model got 81\% of the predictions right.
 
-\subsubsection{Global Explanation with Feature Importance
-}
+\subsubsection{Global Explanation with Feature Importance}
 
-To understand the overall model behaviour, we can use the feature importance to understand which features are more critical for the model. The higher the value, the more important the feature is for the model.
+To understand the overall model behaviour, feature importance can be used. It is a global explanation method that can be used to understand the model's behaviour across the entire dataset. It can be used to identify biases, ensure fairness, and gain an overall understanding of the model's behaviour for regulatory compliance and model improvement. \cite{phillips2020four}
+In this case, the feature importances will help understand which features are more critical for the model. The higher the value, the more important the feature is for the model.
 
 \begin{lstlisting}[caption=Feature Importance, label=feature_importances]
     # Get feature importance
@@ -302,7 +311,9 @@ To understand the overall model behaviour, we can use the feature importance to 
 
 
 \subsubsection{Local Explanation with SHAP}
-I will first use SHAP (SHapley Additive exPlanations) for local explanations. It explains each feature, showing how each feature contributes to the prediction. 
+
+To understand the model's behaviour for a specific instance, SHAP (SHapley Additive exPlanations) can be used. It is a local explanation method that can be used to explain individual predictions. It explains how each feature impacts every model's prediction by considering their interaction consistently and fairly. This helps increase the interpretability by explaining the logic behind every prediction.\cite{why-trust-you}
+It explains each feature, showing how each feature contributes to the prediction. 
 
 \begin{lstlisting}[caption=SHAP Explainer , label=shap_explainer]
     shap_values = shap.TreeExplainer(decision_tree_model).shap_values(X)
@@ -328,9 +339,7 @@ Other features like \texttt{fnlwgt}, \texttt{relationship\_Husband} and various 
 
 
 \subsubsection{Local Explanation with LIME}
-
-Another option that can be used is LIME (Local Interpretable Model-agnostic Explainer). It also explains each feature, showing how each feature contributes to the prediction.
-
+LIME (Local Interpretable Model-agnostic Explainer) can also be used to explain individual predictions. It explains each feature, showing how each feature contributes to the prediction.
 
 \begin{lstlisting}[caption=LIME Explainer , label=lime_explainer]
     # Extracting feature names and weights from the LIME explainer
@@ -372,7 +381,7 @@ The review begins by addressing the challenges posed by the black box models tha
 The emergence of XAI is a response to these challenges, aiming to make AI decisions more transparent and interpretable. Diving into the core of XAI, the review differentiates between transparency, interpretability and explainability, highlighting the differences between these concepts.
 Each of these aspects contributes uniquely to the goal of making AI more understandable and accountable.
 Moreover, the case study using the "Adult Income" dataset demonstrates how XAI can be used to interpret predictions made by a machine learning model. Applying tools like SHAP and LIME provides insights into the model's behaviour, helping us understand why the model made a particular prediction for a specific individual.
-This is particularly important for critical applications where the consequences of a wrong prediction can be severe.
+
 AI is advancing rapidly and is becoming more integrated into our lives. As a result, the need for explainability will only increase. 
 It is not only a technical challenge but also a social one. 
 In summary, "Why Explain a Decision Made by AI?" is not only a question, but it is also a call to action for the AI community to make AI more transparent, interpretable, and explainable. The future of AI, as discussed in this review, is one where AI systems are not only accurate and efficient but also transparent, interpretable, and explainable, aligning with the needs of society, values and ethical considerations.
