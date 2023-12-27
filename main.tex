@@ -89,23 +89,22 @@
 \label{sec:introduction}
 
 
-\IEEEPARstart{A}rtificial intelligence is increasingly becoming a part of everyday life, being used in critical applications, from healthcare to finance and even in the military sector, 
-whether it is to help with medical diagnoses, self-driving cars or even to help with the decision-making process in the military sector.
-As AI advances, our dependence on AI models increases, and the need to understand the model that made such a decision becomes more critical.
-As a result, there is a growing need for AI systems to be more than just accurate and efficient. They must also be transparent, interpretable, and explainable. 
-This is particularly important for critical applications where the consequences of a wrong prediction can be severe. \cite{transparency}
-Decisions made by AI systems can significantly impact people's lives, and it is essential to understand how these decisions are made.\cite{analytical-review} 
-It is not only a technical challenge but also a social one. The general public, policymakers, and regulators are increasingly concerned about the impact of AI systems on society. \cite{doshivelez2017rigorous}
-The impact of the outcome will vary based on the field. A wrong prediction for computing and business might lead to misleading recommendations, potentially affecting the revenue of such businesses. 
-However, wrong predictions in critical sectors like healthcare could risk human life. Opening the "black box" is incredibly important, not just for social acceptance but also for regulatory purposes. 
-Understanding how AI systems reach their conclusions is crucial in ensuring accountability, transparency, and ethical use of these technologies, making it essential for both public trust and regulatory compliance.\cite{analytical-review}
-
+\IEEEPARstart{A}rtificial intelligence is increasingly becoming a part of our daily lives, being utilized in various critical applications, ranging from healthcare to finance and
+even in the military sector. AI models are relied upon for tasks such as medical diagnoses, self-driving cars, and decision-making in the military. As AI technology advances, 
+our dependence on these models increases, making it more important to understand how they make their decisions. For critical applications, it is essential that AI systems 
+are not only accurate and efficient but also transparent, interpretable, and explainable. This is because a wrong prediction can have severe consequences.\cite{transparency} Decisions made by 
+AI systems can significantly impact people's lives, and therefore, it is crucial to comprehend how these decisions are reached.\cite{analytical-review}
+This challenge is not only technical but also social. Policymakers, regulators, and the general public are increasingly concerned about the impact of AI systems on society.\cite{doshivelez2017rigorous}
+The consequences of an incorrect prediction will vary depending on the field. In computing and business, a wrong prediction might lead to misleading recommendations, affecting 
+the revenue of such businesses. In critical sectors like healthcare, however, such predictions could risk human life. It is therefore essential to open the "black box" and 
+understand how AI systems reach their conclusions. Doing so is crucial in ensuring accountability, transparency, and ethical use of these technologies, promoting public trust 
+and regulatory compliance.\cite{analytical-review}
 
 In \autoref{fig:xaiGraphic}, we can easily understand the main differences between the "Black Box" and XAI.\cite{xai-concept}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.37]{images/xaiGraphic.png}
+    \includegraphics[scale=0.39]{images/xaiGraphic.png}
     \caption{Black box vs XAI}
     \label{fig:xaiGraphic}
 \end{figure}
@@ -373,20 +372,21 @@ The feature \texttt{capital-gain $\leq$ 0.00} has the most significant negative 
 Other features, such as \texttt{native-country\_Guatemala $\leq$ 0.00} and \texttt{native-country\_Ireland $\leq$ 0.00}, also positively influence predictions towards a higher income, but their impact is somewhat less when compared to the other features. The negative weights of \texttt{native-country\_Nicaragua $\leq$ 0.00} 
 and \texttt{native-country\_Portugal $\leq$ 0.00} indicates a tendency towards predicting lower income levels for individuals from these countries.
 
-
 \section{Conclusion}
-In conclusion, this literature review explored the importance of Explainable Artificial Intelligence (XAI), highlighting the importance of AI systems from various sectors, from healthcare to finance, to be more than just accurate and efficient.
-They must also be transparent, interpretable, and explainable. This is particularly important for critical applications where the consequences of a wrong prediction can be severe. 
-The review begins by addressing the challenges posed by the black box models that are difficult to explain and understand. It then discusses the importance of explainability in AI systems, highlighting the need for transparency, interpretability, and explainability.
-The emergence of XAI is a response to these challenges, aiming to make AI decisions more transparent and interpretable. Diving into the core of XAI, the review differentiates between transparency, interpretability and explainability, highlighting the differences between these concepts.
-Each of these aspects contributes uniquely to the goal of making AI more understandable and accountable.
-Moreover, the case study using the "Adult Income" dataset demonstrates how XAI can be used to interpret predictions made by a machine learning model. Applying tools like SHAP and LIME provides insights into the model's behaviour, helping us understand why the model made a particular prediction for a specific individual.
 
-AI is advancing rapidly and is becoming more integrated into our lives. As a result, the need for explainability will only increase. 
-It is not only a technical challenge but also a social one. 
-In summary, "Why Explain a Decision Made by AI?" is not only a question, but it is also a call to action for the AI community to make AI more transparent, interpretable, and explainable. The future of AI, as discussed in this review, is one where AI systems are not only accurate and efficient but also transparent, interpretable, and explainable, aligning with the needs of society, values and ethical considerations.
+This literature review emphasizes the significance of Explainable Artificial Intelligence (XAI) and its importance in various sectors like healthcare and finance. 
+The accuracy and efficiency of AI systems alone are not enough; they also need to be transparent, interpretable, and explainable. This is particularly 
+important for critical applications where the consequences of a wrong prediction can be severe. The review discusses the challenges posed by black box models that 
+are difficult to understand and explain. It highlights the importance of explainability in AI systems, stressing the need for transparency and interpretability. 
+XAI has emerged as a response to these challenges, aiming to make AI decisions more transparent and interpretable. The review further differentiates between transparency, 
+interpretability, and explainability, explaining how each contributes to making AI more understandable and accountable. The case study using the "Adult Income" dataset 
+demonstrates how XAI can be used to interpret predictions made by a machine learning model. Tools like SHAP and LIME provide insights into the model's behavior, helping us 
+understand why the model made a particular prediction for a specific individual.
 
-
+As AI becomes more integrated into our lives, the need for explainability will only increase. It is not only a technical challenge but also a social one. 
+"Why Explain a Decision Made by AI?" is not only a question but also a call to action for the AI community to make AI more transparent, interpretable, and explainable. 
+The future of AI, as discussed in this review, is one where AI systems are not only accurate and efficient but also transparent, interpretable, and explainable, aligning 
+with society's needs, values, and ethical considerations.
 
 % references section
 \printbibliography
