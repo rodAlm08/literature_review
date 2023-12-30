@@ -77,8 +77,8 @@
         This paper aims to examine the literature on transparency for artificial intelligence (AI) decisions. With the increasing use of AI in various critical applications,
         it is essential to understand how these decisions are reached. Explainable Artificial Intelligence (XAI) has emerged as a response to this challenge, aiming to make 
         AI decisions more transparent and interpretable. It offers a set of tools and techniques that can be used to explain the decisions and predictions made by AI systems
-        with clarity and transparency as opposed to "Black Box" algorithms that cannot explain how or why a particular decision was reached, outputting directly from data,
-        and even their developers cannot always explain how the model arrived in such results.
+        with clarity and transparency. This is in contrast to "Black Box" algorithms that output reults directly from data, without any explanation of how or why a specific decision 
+        was made. Even the developers of these models are often unable to explain the reasoning behind the model's decision.
     \end{abstract}
 }
 
@@ -136,7 +136,7 @@ Post-hoc explanations are descriptions, explanations, or models of the algorithm
 In other words, the explanations are generated after the model has made the decision or prediction and not during the training phase. 
 Post-hoc explanations can be divided into two categories: local explanations and global explanations. 
 
-\autoref*{tab:xai_comparison} shows a comparison between local and global explanations in XAI.
+Table ~\ref{tab:xai_comparison} shows a comparison between local and global explanations in XAI.
  
 \begin{table}[h]
     \centering
@@ -145,7 +145,7 @@ Post-hoc explanations can be divided into two categories: local explanations and
         \hline
         \textbf{Aspect}           & \textbf{Local Explanation}                                                                                              & \textbf{Global Explanation}                                                                                                                                    \\
         \hline
-        \textbf{Scope}            & It explains individual predictions.                                                                                     & It will focus on understanding the model's behaviour across the entire dataset.                                                                                \\
+        \textbf{Scope}            & Explains individual predictions.                                                                                     & Focus on understanding the model's behaviour across the entire dataset.                                                                                \\
         \hline
         \textbf{Granularity}      & Aims to explain why a particular decision was made.                                                                     & Higher level overview of the model's behaviour, bringing up general trends and feature importance across the dataset.                                          \\
         \hline
@@ -153,7 +153,7 @@ Post-hoc explanations can be divided into two categories: local explanations and
         \hline
         \textbf{Use Cases}        & Focus on explaining why a specific prediction was made, especially in critical applications like healthcare or finance. & Focus on identifying biases, ensuring fairness, and gaining an overall understanding of the model's behaviour for regulatory compliance and model improvement. \\
         \hline
-        \textbf{Interpretability} & Easier to understand individual cases focusing on the specific explanation.                                        & A wider view of the model makes it valuable for stakeholders and policymakers seeking a general understanding of the AI system.                                \\
+        \textbf{Interpreta-bility} & Easier to understand individual cases focusing on the specific explanation.                                        & Wider view of the model makes it valuable for stakeholders and policymakers seeking a general understanding of the AI system.                                \\
         \hline
     \end{tabularx}
     \caption{Comparison of Local and Global Explanations in XAI}
@@ -165,7 +165,7 @@ These explanations focus on a single prediction and aim to answer the following 
 
 \subsubsection{LIME - Local Interpretable Model-agnostic Explainer}
 LIME takes a specific decision made by an ML model and examines nearby data points, creating a simplified and interpretable model representing a locally made decision\cite{phillips2020four}. The default model is logistic regression.
-LIME breaks down the image into smaller regions called superpixels when dealing with images. It then explores combinations of these superpixels, omitting some and replacing some with black. By doing this, LIME aims to understand and explain how the model's decision is influenced by specific parts of the image.
+It is often used to explain image classification models. LIME breaks down the image into smaller regions called superpixels when dealing with images. It then explores combinations of these superpixels, omitting some and replacing some with black. By doing this, LIME aims to understand and explain how the model's decision is influenced by specific parts of the image.
 
 \subsubsection{SHAP - SHapley Additive exPlanations} SHAP is based on game theory concepts and can explain the predictions by calculating the contribution of every feature to the prediction. It explains how each feature impacts every model's prediction by considering their interaction consistently and fairly. This helps increase the interpretability by explaining the logic behind every prediction.\cite{why-trust-you}
 
@@ -193,13 +193,13 @@ Unlike black-box models, decision sets capture the decision-making process by ge
 
 
 \section{Interpreting Predictions - A Case Study with the "Adult Income" dataset}
-As a case study, I will use the "Adult Income" dataset\cite{misc_adult_2} to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker \cite{misc_adult_2} and is often cited in machine learning literature and research papers.
-Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
+As a case study, the "Adult Income" dataset\cite{misc_adult_2} will be used to predict whether an individual earns more than €50,000/year based on 14 features. This dataset was extracted by Barry Becker \cite{misc_adult_2} and is often cited in machine learning literature and research papers.
+Table ~\ref{tab:variable-descriptions} shows the 14 features listed by name, role type and demographic.
 
 \begin{table}[h]
     \centering
-    \caption{Variable Descriptions}
-    \begin{tabularx}{\columnwidth}{cccccc}
+    
+    \begin{tabularx}{8cm}{ccccc}
         \toprule
         \textbf{Variable Name} & \textbf{Role} & \textbf{Type} & \textbf{Demographic} \\
         \midrule
@@ -220,39 +220,40 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
         income                 & Target        & Binary        & Income               \\
         \bottomrule
     \end{tabularx}
+    \caption{Variable Descriptions}
     \label{tab:variable-descriptions}
 \end{table}
 
 \begin{itemize}
-    \item \textbf{Age:} It represents the age of a person, it is an important factor in predicting income because age can reflect an individual's level of experience and earning potential.
+    \item \textbf{Age:} represents the age of a person, it is an important factor in predicting income because age can reflect an individual's level of experience and earning potential.
 
-    \item \textbf{Work class:} It can be categorized as Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked. It refers to the type of employment. Employment status is also essential, as income levels often vary according to employment status.
+    \item \textbf{Work class:} can be categorized as Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, and Never-worked. It refers to the type of employment. Employment status is also essential, as income levels often vary according to employment status.
 
-    \item \textbf{Fnlwgt:} Final weight represents the number of people the census believes the entry represents.
+    \item \textbf{Fnlwgt:} final weight represents the number of people the census believes the entry represents.
 
-    \item \textbf{Education Level:} Represents the highest level of education an individual has obtained. It is divided into Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool. The education level is a key predictor of income since individuals with higher education often have access to better-paying job opportunities.
+    \item \textbf{Education Level:} represents the highest level of education an individual has obtained. It is divided into Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, and Preschool. The education level is a key predictor of income since individuals with higher education often have access to better-paying job opportunities.
 
-    \item \textbf{Education Num:} This is a numerical representation of the educational level. This also helps understand the education obtained by an individual.
+    \item \textbf{Education Num:} a numerical representation of the educational level. This also helps understand the education obtained by an individual.
 
-    \item \textbf{Marital Status:} This describes the marital status of the individual. It is divided into Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, and Married-AF-spouse.
+    \item \textbf{Marital Status:} describes the marital status of the individual. It is divided into Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, and Married-AF-spouse.
 
-    \item \textbf{Occupation:} Specifies the type of education the individual is involved with. It is divided into Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces. Occupation is also a critical factor that influences income, as income levels are different depending on occupation.
+    \item \textbf{Occupation:} specifies the type of education the individual is involved with. It is divided into Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, and Armed-Forces. Occupation is also a critical factor that influences income, as income levels are different depending on occupation.
 
-    \item \textbf{Relationship:} This describes the relationship status of an individual, which can have an impact on household income and financial stability. It is divided into Wife, Own-child, Husband, Not-in-family, Other-relative, and Unmarried.
+    \item \textbf{Relationship:} describes the relationship status of an individual, which can have an impact on household income and financial stability. It is divided into Wife, Own-child, Husband, Not-in-family, Other-relative, and Unmarried.
 
-    \item \textbf{Race:} Indicates the race of the individual. It should not directly affect income but could be linked to other socioeconomic factors that can impact earnings. It is divided into White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, and Black.
+    \item \textbf{Race:} indicates the race of the individual. It should not directly affect income but could be linked to other socioeconomic factors that can impact earnings. It is divided into White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, and Black.
 
-    \item \textbf{Sex:} Specifies the gender of the individual. It can influence income for reasons such as wage gaps and job segregation. It is divided into females and males.
+    \item \textbf{Sex:} specifies the gender of the individual. It can influence income for reasons such as wage gaps and job segregation. It is divided into females and males.
 
-    \item \textbf{Capital Gain:} Represents capital gains for the individual. It contributes to overall income.
+    \item \textbf{Capital Gain:} represents capital gains for the individual. It contributes to overall income.
 
-    \item \textbf{Capital Loss:} Represents capital losses for the individual. It can impact the individual's financial situation.
+    \item \textbf{Capital Loss:} represents capital losses for the individual. It can impact the individual's financial situation.
 
-    \item \textbf{Hours Per Week:} Indicates the number of working hours per week. The number of hours worked in a week influences the income directly.
+    \item \textbf{Hours Per Week:} indicates the number of working hours per week. The number of hours worked in a week influences the income directly.
 
-    \item \textbf{Native Country:} Indicates the individual's country of origin. Depending on the country of origin, the individual may be impacted by fewer or more opportunities. It is divided into United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad \& Tobago, Peru, Hong, Holand-Netherlands.
+    \item \textbf{Native Country:} indicates the individual's country of origin. Depending on the country of origin, the individual may be impacted by fewer or more opportunities. It is divided into United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad \& Tobago, Peru, Hong, and Holand-Netherlands.
 
-    \item \textbf{Income:} This is the target variable indicating whether the individual's income exceeds  \$50,000 per year. \textbf{This is the variable we are trying to predict}.
+    \item \textbf{Income:} the target variable indicating whether the individual's income exceeds  \$50,000 per year. \textbf{This is the variable we are trying to predict}.
 
 \end{itemize}
 
@@ -260,7 +261,7 @@ Table \ref{tab:variable-descriptions} shows the 14 features listed by name, role
 In this section, the predictions made by a machine learning model using the "Adult Income" dataset will be interpreted using Python. The library \texttt{pandas} will be used for data handling, \texttt{sklearn} for building the model, and \texttt{shap} and \texttt{lime} for explainability.
 
 \subsubsection{Loading and Preparing the Dataset}
-Using Panda, the first step is to load the data and preprocess it in a way that handles missing values and splits the dataset into features \texttt{X} and target \texttt{y}.
+Using \texttt{pandas}, the first step is to load the data and preprocess it in a way that handles missing values and splits the dataset into features \texttt{X} and target \texttt{y}.
 
 \subsubsection{Training a Machine Learning Model}
 To train the model, \texttt{DecisionTreeClassifier} from scikit-learn will be used for the classification task. The model will be trained using the training set and then used to make predictions on the test set.
@@ -374,7 +375,7 @@ and \texttt{native-country\_Portugal $\leq$ 0.00} indicates a tendency towards p
 
 \section{Conclusion}
 
-This literature review emphasizes the significance of Explainable Artificial Intelligence (XAI) and its importance in various sectors like healthcare and finance. 
+This literature review emphasizes the significance of Explainable Artificial Intelligence (XAI) and its importance in various sectors. 
 The accuracy and efficiency of AI systems alone are not enough; they also need to be transparent, interpretable, and explainable. This is particularly 
 important for critical applications where the consequences of a wrong prediction can be severe. The review discusses the challenges posed by black box models that 
 are difficult to understand and explain. It highlights the importance of explainability in AI systems, stressing the need for transparency and interpretability. 

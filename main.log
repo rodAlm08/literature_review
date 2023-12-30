@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  27 DEC 2023 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  30 DEC 2023 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -680,8 +680,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
  <./images/xaiGraphic.png>]
-Underfull \hbox (badness 7415) in paragraph at lines 158--158
-[]|\OT1/ppl/m/n/9.03374 It will fo-cus on
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\OT1/ppl/m/n/9.03374 Focus on
  []
 
 
@@ -785,8 +785,8 @@ Underfull \hbox (badness 6859) in paragraph at lines 158--158
  []
 
 
-Overfull \hbox (12.50824pt too wide) in paragraph at lines 158--158
-[]|\OT1/ppl/b/n/9.03374 Interpretability| 
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\OT1/ppl/b/n/9.03374 Interpreta-
  []
 
 
@@ -810,13 +810,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--158
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 158--158
-[]|\OT1/ppl/m/n/9.03374 A wider view of
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\OT1/ppl/m/n/9.03374 Wider view of
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 158--158
-\OT1/ppl/m/n/9.03374 mak-ers seek-ing a
+Underfull \hbox (badness 5954) in paragraph at lines 158--158
+\OT1/ppl/m/n/9.03374 the model makes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ppl/m/n/9.03374 it valu-able for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ppl/m/n/9.03374 stake-hold-ers and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ppl/m/n/9.03374 pol-i-cy-mak-ers
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 158--158
+\OT1/ppl/m/n/9.03374 seek-ing a gen-eral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ppl/m/n/9.03374 un-der-stand-ing of
  []
 
 
@@ -834,139 +859,134 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 19
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in alignment at lines 222--222
-[][][][][][]
+Overfull \hbox (1.82948pt too wide) in alignment at lines 222--222
+[][][][][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 237--238
-[]\OT1/ppl/b/n/9.53561 Marital Sta-tus: \OT1/ppl/m/n/9.53561 This de-scribes the mar-i-tal sta-
+Underfull \hbox (badness 5133) in paragraph at lines 238--239
+\OT1/ppl/m/n/9.53561 Di-vorced, Never-married, Sep-a-rated, Wid-owed,
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 237--238
-\OT1/ppl/m/n/9.53561 civ-spouse, Di-vorced, Never-married, Sep-a-rated,
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 239--240
+Underfull \hbox (badness 1509) in paragraph at lines 240--241
 \OT1/ppl/m/n/9.53561 in-di-vid-ual is in-volved with. It is di-vided into
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 239--240
+Underfull \hbox (badness 7064) in paragraph at lines 240--241
 \OT1/ppl/m/n/9.53561 Tech-support, Craft-repair, Other-service, Sales,
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 239--240
+Underfull \hbox (badness 1354) in paragraph at lines 240--241
 \OT1/ppl/m/n/9.53561 Machine-op-inspct, Adm-clerical, Farming-fishing,
  []
 
 [3]
-Underfull \hbox (badness 1796) in paragraph at lines 253--254
+Underfull \hbox (badness 1796) in paragraph at lines 254--255
 \OT1/ppl/m/n/9.53561 Scot-land, Thai-land, Yu-goslavia, El-Salvador, Tri-
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 255--256
-[]\OT1/ppl/b/n/9.53561 Income: \OT1/ppl/m/n/9.53561 This is the tar-get vari-able in-di-cat-ing
+Underfull \hbox (badness 4940) in paragraph at lines 254--255
+\OT1/ppl/m/n/9.53561 nadad & To-bago, Peru, Hong, and Holand-
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 260.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 261.
 (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 268.
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 281.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 269.
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 282.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <7.02625> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 281.
-<images/feature_importance_global.png, id=162, 771.1209pt x 505.1673pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 282.
+<images/feature_importance_global.png, id=163, 771.1209pt x 505.1673pt>
 File: images/feature_importance_global.png Graphic file (type png)
 <use images/feature_importance_global.png>
-Package pdftex.def Info: images/feature_importance_global.png  used on input line 304.
+Package pdftex.def Info: images/feature_importance_global.png  used on input line 305.
 (pdftex.def)             Requested size: 252.94499pt x 165.70364pt.
-<images/shap_summary_plot.png, id=166, 570.933pt x 679.338pt>
+<images/shap_summary_plot.png, id=167, 570.933pt x 679.338pt>
 File: images/shap_summary_plot.png Graphic file (type png)
 <use images/shap_summary_plot.png>
-Package pdftex.def Info: images/shap_summary_plot.png  used on input line 324.
+Package pdftex.def Info: images/shap_summary_plot.png  used on input line 325.
 (pdftex.def)             Requested size: 252.94499pt x 300.97244pt.
  [4 <./images/feature_importance_global.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 328--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<images/lime_summary_plot.png, id=197, 662.7159pt x 393.8715pt>
+<images/lime_summary_plot.png, id=198, 662.7159pt x 393.8715pt>
 File: images/lime_summary_plot.png Graphic file (type png)
 <use images/lime_summary_plot.png>
-Package pdftex.def Info: images/lime_summary_plot.png  used on input line 363.
+Package pdftex.def Info: images/lime_summary_plot.png  used on input line 364.
 (pdftex.def)             Requested size: 252.94499pt x 150.33382pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 \OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00\OT1/ppl/m/n/9.53561 , \OT1/pcr/m/n/9.53561 native-country_Hong $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00\OT1/ppl/m/n/9.53561 , and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 \OT1/pcr/m/n/9.53561 education_Preschool $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 has pos-i-tive
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 368--374
+Underfull \hbox (badness 5490) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 weights (0.3280648148846505, 0.2812235627400507, and
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 368--374
+Underfull \hbox (badness 2088) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 0.27962517534951975, re-spec-tively), sug-gest-ing that the
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 368--374
+Underfull \hbox (badness 1400) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 of a spe-cific in-stance, of-fer-ing in-sights into why the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 fea-tures, such as \OT1/pcr/m/n/9.53561 native-country_Guatemala $\OMS/cmsy/m/n/10 ^^T$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 and \OT1/pcr/m/n/9.53561 native-country_Ireland $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00\OT1/ppl/m/n/9.53561 ,
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 368--374
+Underfull \hbox (badness 5652) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 in-come, but their im-pact is some-what less when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 of \OT1/pcr/m/n/9.53561 native-country_Nicaragua $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 \OT1/pcr/m/n/9.53561 native-country_Portugal $\OMS/cmsy/m/n/10 ^^T$ \OT1/pcr/m/n/9.53561 0.00 \OT1/ppl/m/n/9.53561 in-di-cates a
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 368--374
+Underfull \hbox (badness 1888) in paragraph at lines 369--375
 \OT1/ppl/m/n/9.53561 ten-dency to-wards pre-dict-ing lower in-come lev-els for
  []
 
 [5 <./images/shap_summary_plot.png> <./images/lime_summary_plot.png>]
-Underfull \hbox (badness 1910) in paragraph at lines 393--393
+Underfull \hbox (badness 1910) in paragraph at lines 394--394
 []\OT1/ppl/m/n/9.53561 Marco Tulio Ribeiro, Sameer Singh, and Car-los
  []
 
@@ -988,11 +1008,11 @@ Here is how much of TeX's memory you used:
  41963 multiletter control sequences out of 15000+600000
  606301 words of font info for 132 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,10n,81p,1459b,1610s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,81p,1459b,1611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (6 pages, 346042 bytes).
+Output written on main.pdf (6 pages, 346431 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
+ 329 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
